@@ -43,7 +43,7 @@ check_env() {
         echo "📝 Please edit .env file and add your TMDB_API_KEY"
         exit 1
     fi
-    
+
     if ! grep -q "TMDB_API_KEY" .env || grep -q "your_tmdb_api_key_here" .env; then
         echo "⚠️  Warning: TMDB_API_KEY not set in .env file"
         echo "📝 Please add your TMDB API key to the .env file"
@@ -54,7 +54,7 @@ check_env() {
 create_directories() {
     echo "📁 Creating necessary directories..."
     mkdir -p logs monitoring airflow/logs airflow/plugins
-    
+
     # Set permissions for Airflow
     if [[ "$OSTYPE" == "linux-gnu"* ]]; then
         echo "🔐 Setting permissions for Airflow (Linux)..."
@@ -65,13 +65,13 @@ create_directories() {
 # Function to start services
 start_services() {
     echo "🚀 Starting MLOps Movie Recommendation services..."
-    
+
     check_env
     create_directories
-    
+
     # Build and start services
     docker-compose up -d
-    
+
     echo ""
     echo "✅ Services are starting up. This may take a few minutes..."
     echo ""
@@ -83,7 +83,7 @@ start_services() {
     echo "   📈 Grafana:      http://localhost:3000 (admin/admin)"
     echo ""
     echo "⏳ Waiting for services to be ready..."
-    
+
     # Wait for API to be ready
     for i in {1..30}; do
         if curl -s http://localhost:8000/health > /dev/null 2>&1; then
@@ -97,7 +97,7 @@ start_services() {
             sleep 10
         fi
     done
-    
+
     echo ""
     echo "🎉 MLOps Movie Recommendation is ready!"
     echo "📖 Check the logs with: $0 logs"
@@ -134,11 +134,11 @@ show_logs() {
 show_status() {
     echo "📊 Service Status:"
     docker-compose ps
-    
+
     echo ""
     echo "💾 Volume Usage:"
     docker system df
-    
+
     echo ""
     echo "🌐 Network Status:"
     docker network ls | grep mlops
@@ -163,9 +163,9 @@ start_api_only() {
     echo "🚀 Starting API service only..."
     check_env
     create_directories
-    
+
     docker-compose up -d movie-api postgres
-    
+
     echo ""
     echo "✅ API service is starting..."
     echo "🔗 API URL: http://localhost:8000"

@@ -155,7 +155,7 @@ Response:
    ```bash
    # Check if Prometheus can scrape API
    curl http://localhost:9090/api/v1/targets
-   
+
    # Check API metrics endpoint
    curl http://localhost:8000/metrics
    ```
@@ -164,7 +164,7 @@ Response:
    ```bash
    # Check if API is running
    curl http://localhost:8000/health
-   
+
    # Check Docker network (if using Docker)
    docker network ls
    ```

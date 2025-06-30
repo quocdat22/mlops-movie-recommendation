@@ -101,7 +101,7 @@ def train_recommendation_model():
         # Load data
         # Train model (Collaborative Filtering, Matrix Factorization, etc.)
         # Log parameters, metrics, model
-        
+
         mlflow.log_param("algorithm", "matrix_factorization")
         mlflow.log_metric("rmse", rmse)
         mlflow.sklearn.log_model(model, "recommendation_model")
@@ -181,17 +181,17 @@ class HybridRecommender:
     def __init__(self):
         self.collaborative_model = load_collaborative_model()
         self.content_based_model = load_content_based_model()
-    
+
     def recommend(self, user_id, include_new_movies=True):
         # Existing movies: Collaborative Filtering
         existing_recs = self.collaborative_model.recommend(user_id)
-        
+
         if include_new_movies:
             # New movies: Content-based
             new_movie_recs = self.content_based_model.recommend_new(user_id)
             # Blend recommendations
             return self.blend_recommendations(existing_recs, new_movie_recs)
-        
+
         return existing_recs
 ```
 
@@ -227,14 +227,14 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run tests
         run: pytest tests/
-  
+
   train:
     needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Train model
         run: python src/models/train.py
-      
+
   deploy:
     needs: train
     runs-on: ubuntu-latest

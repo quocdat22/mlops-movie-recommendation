@@ -39,4 +39,4 @@ def test_recommendations_post(test_client):
 def test_search_movies_get(test_client):
     resp = test_client.get("/search?query=hero&top_k=4")
     assert resp.status_code == 200
-    assert len(resp.json()["results"]) == 4 
+    assert len(resp.json()["results"]) == 4

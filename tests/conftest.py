@@ -113,4 +113,4 @@ def test_client():
     # Inject dummy recommender before tests start
     api_service.recommender = DummyRecommender()
     client = TestClient(api_service.app)
-    return client 
+    return client

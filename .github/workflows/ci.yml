@@ -74,4 +74,4 @@ jobs:
           push: true
           tags: |
             wuxdas/mlops-movie-recommendation-dashboard:latest
-            wuxdas/mlops-movie-recommendation-dashboard:${{ github.sha }} 
+            wuxdas/mlops-movie-recommendation-dashboard:${{ github.sha }}

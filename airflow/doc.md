@@ -5,7 +5,7 @@ Hoàn thành! Tôi đã tạo DAG file `airflow/dags/movie_data_pipeline_dag.py`
 
 ### **3 Tasks được định nghĩa**:
 1. **`fetch_new_movies`**: Gọi Task 1 (lấy dữ liệu từ TMDB)
-2. **`process_and_store_movies`**: Gọi Task 2 (xử lý và lưu vào database)  
+2. **`process_and_store_movies`**: Gọi Task 2 (xử lý và lưu vào database)
 3. **`check_pipeline_status`**: Task kiểm tra cuối (ghi log trạng thái)
 
 ### **Dependencies (Thứ tự thực thi)**:
