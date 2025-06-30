@@ -5,6 +5,7 @@ Test script to verify database connection and basic operations.
 
 import os
 import sys
+import pytest
 
 # Add the project root directory to Python path
 project_root = os.path.dirname(os.path.dirname(__file__))
@@ -23,6 +24,10 @@ def test_database_connection():
     )
 
     logger = logging.getLogger(__name__)
+
+    # Skip in CI if DATABASE_URL not provided
+    if not os.getenv("DATABASE_URL"):
+        pytest.skip("DATABASE_URL not configured; skipping database integration test")
 
     try:
         # Create database manager instance
