@@ -12,20 +12,19 @@ Web-based dashboard for managing the entire MLOps pipeline including:
 Author: MLOps Movie Recommendation System
 """
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
-import requests
-import json
+import os
+import subprocess
 import time
 from datetime import datetime, timedelta
 from pathlib import Path
-import subprocess
+
+import numpy as np
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
 import psutil
-import os
+import requests
+import streamlit as st
 
 # Page configuration
 st.set_page_config(
@@ -95,7 +94,7 @@ class MLOpsDashboard:
                 return response.json()
             else:
                 return None
-        except Exception as e:
+        except Exception:
             return None
 
     def test_recommendation(self, movie_id: int = 278):
@@ -496,7 +495,7 @@ def show_testing(dashboard):
 
     with col1:
         movie_id = st.number_input("Movie ID", value=278, min_value=1)
-        top_k = st.slider("Number of recommendations", 1, 20, 5)
+        st.slider("Number of recommendations", 1, 20, 5)
 
         if st.button("Test Recommendations"):
             with st.spinner("Getting recommendations..."):
@@ -522,7 +521,7 @@ def show_testing(dashboard):
         st.subheader("Search Testing")
 
         query = st.text_input("Search query", value="action")
-        search_limit = st.slider("Search limit", 1, 10, 3)
+        st.slider("Search limit", 1, 10, 3)
 
         if st.button("Test Search"):
             with st.spinner("Searching..."):
@@ -668,7 +667,7 @@ def show_system_metrics(dashboard):
     col1, col2, col3, col4 = st.columns(4)
 
     with col1:
-        cpu_color = (
+        (
             "red"
             if system_metrics["cpu_percent"] > 80
             else "orange" if system_metrics["cpu_percent"] > 60 else "green"
@@ -677,7 +676,7 @@ def show_system_metrics(dashboard):
         st.progress(system_metrics["cpu_percent"] / 100)
 
     with col2:
-        mem_color = (
+        (
             "red"
             if system_metrics["memory_percent"] > 80
             else "orange" if system_metrics["memory_percent"] > 60 else "green"
@@ -686,7 +685,7 @@ def show_system_metrics(dashboard):
         st.progress(system_metrics["memory_percent"] / 100)
 
     with col3:
-        disk_color = (
+        (
             "red"
             if system_metrics["disk_percent"] > 90
             else "orange" if system_metrics["disk_percent"] > 70 else "green"

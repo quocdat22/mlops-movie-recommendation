@@ -1,10 +1,11 @@
-import os
-import requests
 import json
-from dotenv import load_dotenv
 import logging
+import os
 import time
 from datetime import datetime, timedelta
+
+import requests
+from dotenv import load_dotenv
 
 # Cấu hình logging
 logging.basicConfig(
@@ -107,7 +108,7 @@ def save_recent_movies_data(data, output_path):
             json.dump(data, f, ensure_ascii=False, indent=4)
         logging.info(f"Đã lưu {len(data)} phim mới vào: {output_path}")
         return True
-    except IOError as e:
+    except OSError as e:
         logging.error(f"Lỗi khi ghi file: {e}")
         return False
 

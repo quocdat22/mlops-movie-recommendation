@@ -6,9 +6,10 @@ This script demonstrates how to interact with the Movie Recommendation API.
 It includes examples for all available endpoints.
 """
 
-import requests
 import json
 from typing import Dict, List
+
+import requests
 
 
 class MovieRecommendationAPIClient:

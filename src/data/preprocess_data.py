@@ -1,15 +1,16 @@
-import os
-import pandas as pd
-import json
 import ast
-from sqlalchemy import create_engine
-from dotenv import load_dotenv
+import json
 import logging
+import os
 import re
+
 import nltk
+import pandas as pd
+from dotenv import load_dotenv
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+from sqlalchemy import create_engine
 
 # Download required NLTK data
 try:

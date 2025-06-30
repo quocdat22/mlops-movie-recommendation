@@ -6,10 +6,11 @@ This module defines custom metrics specific to the movie recommendation system
 that will be collected by Prometheus for monitoring model performance.
 """
 
-from prometheus_client import Counter, Histogram, Gauge, Info
 import time
 from functools import wraps
-from typing import Callable, Any
+from typing import Any, Callable
+
+from prometheus_client import Counter, Gauge, Histogram
 
 
 # Custom metrics for movie recommendation system

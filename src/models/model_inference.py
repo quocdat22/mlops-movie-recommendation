@@ -16,16 +16,16 @@ Features:
 Author: MLOps Movie Recommendation System
 """
 
-import os
-import sys
-import pickle
-import logging
-import pandas as pd
-import numpy as np
-from pathlib import Path
-from typing import List, Dict, Optional, Union
 import json
-from datetime import datetime
+import logging
+import os
+import pickle
+import sys
+from pathlib import Path
+from typing import Dict, List, Optional
+
+import numpy as np
+import pandas as pd
 
 # Add src to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
@@ -110,7 +110,7 @@ class ContentBasedRecommender:
                 for raw_file in raw_data_files:
                     if raw_file.exists():
                         try:
-                            with open(raw_file, "r", encoding="utf-8") as f:
+                            with open(raw_file, encoding="utf-8") as f:
                                 raw_data = json.load(f)
                                 # Index by movie id for fast lookup
                                 for movie in raw_data:
@@ -123,7 +123,7 @@ class ContentBasedRecommender:
                             )
             else:
                 try:
-                    with open(raw_data_path, "r", encoding="utf-8") as f:
+                    with open(raw_data_path, encoding="utf-8") as f:
                         self.raw_movies_data = json.load(f)
                 except Exception as e:
                     logger.warning(f"Error loading raw data: {e}")
@@ -150,7 +150,7 @@ class ContentBasedRecommender:
 
             self.is_loaded = True
 
-            logger.info(f"Model loaded successfully:")
+            logger.info("Model loaded successfully:")
             logger.info(f"- Movies: {len(self.movie_to_idx):,}")
             logger.info(f"- Vocabulary: {len(self.tfidf_vectorizer.vocabulary_):,}")
             logger.info(f"- Matrix shape: {self.similarity_matrix.shape}")
@@ -559,7 +559,7 @@ def main():
             )
 
     # Demo text-based search
-    print(f"\nSimilar movies to 'action superhero adventure':")
+    print("\nSimilar movies to 'action superhero adventure':")
     text_recommendations = recommender.search_similar_movies(
         "action superhero adventure", top_k=5
     )
@@ -570,7 +570,7 @@ def main():
         )
 
     # Demo title search
-    print(f"\nSearch results for title 'batman':")
+    print("\nSearch results for title 'batman':")
     title_recommendations = recommender.search_by_title("batman", top_k=5)
     for i, rec in enumerate(title_recommendations, 1):
         print(
@@ -579,7 +579,7 @@ def main():
         )
 
     # Demo combined search
-    print(f"\nCombined search results for 'superhero':")
+    print("\nCombined search results for 'superhero':")
     combined_recommendations = recommender.search_movies(
         "superhero", top_k=5, search_type="hybrid"
     )

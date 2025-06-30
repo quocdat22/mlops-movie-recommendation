@@ -2,11 +2,11 @@
 Middleware for Movie Recommendation API
 """
 
-import time
 import logging
+import time
 from datetime import datetime
-from typing import Optional
-from fastapi import Request, HTTPException, status
+
+from fastapi import Request, status
 from fastapi.responses import JSONResponse
 from starlette.middleware.base import BaseHTTPMiddleware
 

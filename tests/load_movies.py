@@ -3,14 +3,15 @@
 Script to load movie data from JSON file to Supabase database.
 """
 
-import sys
 import os
+import sys
 
 # Add the src directory to Python path
 sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
 
-from src.data.database_manager import DatabaseManager
 import logging
+
+from src.data.database_manager import DatabaseManager
 
 
 def main():

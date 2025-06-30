@@ -6,13 +6,12 @@ This script generates load on the API to test monitoring capabilities.
 It makes various types of requests to different endpoints.
 """
 
-import requests
-import time
 import random
-import threading
-import json
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List, Dict
+from typing import Dict, List
+
+import requests
 
 
 class APILoadTester:

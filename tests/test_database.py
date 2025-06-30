@@ -3,15 +3,16 @@
 Test script to verify database connection and basic operations.
 """
 
-import sys
 import os
+import sys
 
 # Add the project root directory to Python path
 project_root = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(project_root)
 
-from src.data.database_manager import DatabaseManager
 import logging
+
+from src.data.database_manager import DatabaseManager
 
 
 def test_database_connection():

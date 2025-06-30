@@ -1,9 +1,10 @@
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from airflow.operators.bash import BashOperator
-from datetime import datetime, timedelta
-import sys
 import os
+import sys
+from datetime import datetime, timedelta
+
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from airflow.operators.python import PythonOperator
 
 # Thêm đường dẫn src vào sys.path để có thể import các module
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -19,9 +20,9 @@ from data.airflow_process_movies import main as process_movies_main
 # Định nghĩa hàm wrapper cho model training
 def run_preprocessing_and_training():
     """Run data preprocessing and model training"""
+    import os
     import subprocess
     import sys
-    import os
 
     # Get project root directory
     current_dir = os.path.dirname(os.path.abspath(__file__))

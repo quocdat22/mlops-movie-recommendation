@@ -1,9 +1,9 @@
-import os
-import pandas as pd
-from sqlalchemy import create_engine, inspect, text, types
-from dotenv import load_dotenv
 import logging
-import json
+import os
+
+import pandas as pd
+from dotenv import load_dotenv
+from sqlalchemy import create_engine, inspect, text
 
 # Cấu hình logging
 logging.basicConfig(

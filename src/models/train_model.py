@@ -16,22 +16,21 @@ Features:
 Author: MLOps Movie Recommendation System
 """
 
-import os
-import sys
 import logging
+import os
 import pickle
-import pandas as pd
-import numpy as np
+import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Tuple, List, Dict, Optional
-import json
+from typing import Dict, List
+
+import numpy as np
+import pandas as pd
+import scipy.sparse as sp
 
 # ML Libraries
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.model_selection import cross_val_score
-import scipy.sparse as sp
 
 # Add src to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
@@ -408,7 +407,7 @@ class ContentBasedTrainer:
             for test in validation_metrics.get("sample_tests", []):
                 report_content += f"- '{test['title']}': {test['recommendations']} recommendations, avg similarity {test['avg_similarity']:.3f}\n"
 
-        report_content += f"""
+        report_content += """
 ## Model Artifacts
 """
         for artifact_type, path in artifacts.items():
@@ -417,7 +416,7 @@ class ContentBasedTrainer:
                 f"- {artifact_type.title()}: {path} ({file_size:.1f} MB)\n"
             )
 
-        report_content += f"""
+        report_content += """
 ## Training Configuration
 - Feature Engineering Strategy: Overview-heavy (3:1:2 ratio)
 - Text Processing: NLTK lemmatization, stopword removal

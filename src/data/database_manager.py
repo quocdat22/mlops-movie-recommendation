@@ -1,10 +1,11 @@
-import os
 import json
-import psycopg2
-from psycopg2.extras import RealDictCursor, execute_values
-from dotenv import load_dotenv
 import logging
-from typing import List, Dict, Any
+import os
+from typing import Any, Dict, List
+
+import psycopg2
+from dotenv import load_dotenv
+from psycopg2.extras import RealDictCursor
 
 # Load environment variables
 load_dotenv()
@@ -138,7 +139,6 @@ class DatabaseManager:
         """Insert movies in batches for better performance."""
         total_movies = len(movies_data)
         inserted_count = 0
-        skipped_count = 0
         error_count = 0
 
         logger.info(
@@ -179,7 +179,7 @@ class DatabaseManager:
                 raise FileNotFoundError(f"JSON file not found: {json_file_path}")
 
             # Load JSON data
-            with open(json_file_path, "r", encoding="utf-8") as file:
+            with open(json_file_path, encoding="utf-8") as file:
                 movies_data = json.load(file)
 
             logger.info(f"Loaded {len(movies_data)} movies from {json_file_path}")

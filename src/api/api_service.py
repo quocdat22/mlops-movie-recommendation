@@ -17,34 +17,34 @@ Features:
 Author: MLOps Movie Recommendation System
 """
 
-import os
-import sys
 import logging
-from pathlib import Path
-from typing import List, Dict, Optional
-from datetime import datetime
-import json
+import sys
 from contextlib import asynccontextmanager
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional
+
+import uvicorn
 
 # FastAPI imports
-from fastapi import FastAPI, HTTPException, Query, Path as PathParam
+from fastapi import FastAPI, HTTPException, Query
+from fastapi import Path as PathParam
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel, Field
-import uvicorn
 from prometheus_fastapi_instrumentator import Instrumentator
+from pydantic import BaseModel, Field
 
 # Add src to path for imports
 current_dir = Path(__file__).parent
 sys.path.append(str(current_dir.parent))
 
 # Import configuration and middleware
-from .config import settings
-from .middleware import APIKeyMiddleware, LoggingMiddleware, RateLimitMiddleware
-from .metrics import metrics
-
 # Import our recommendation model
 from models.model_inference import ContentBasedRecommender
+
+from .config import settings
+from .metrics import metrics
+from .middleware import APIKeyMiddleware, LoggingMiddleware, RateLimitMiddleware
 
 # Setup logging
 logging.basicConfig(

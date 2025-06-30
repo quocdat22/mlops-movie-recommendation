@@ -15,17 +15,15 @@ Features:
 Author: MLOps Movie Recommendation System
 """
 
-import os
-import sys
-import time
+import json
 import logging
-import requests
-import pandas as pd
-import numpy as np
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Dict, List, Optional
-import json
+from typing import Dict, List
+
+import numpy as np
+import requests
 
 # Setup logging
 logging.basicConfig(
@@ -308,7 +306,7 @@ class ModelMonitor:
         try:
             # Load existing metrics
             if self.metrics_file.exists():
-                with open(self.metrics_file, "r") as f:
+                with open(self.metrics_file) as f:
                     all_metrics = json.load(f)
             else:
                 all_metrics = []
@@ -361,7 +359,7 @@ class ModelMonitor:
             return "No monitoring data available"
 
         # Load recent metrics
-        with open(self.metrics_file, "r") as f:
+        with open(self.metrics_file) as f:
             all_metrics = json.load(f)
 
         if not all_metrics:
@@ -429,7 +427,7 @@ def main():
     monitor = ModelMonitor()
 
     # Run single monitoring cycle
-    results = monitor.run_monitoring_cycle()
+    monitor.run_monitoring_cycle()
 
     # Generate and save report
     report = monitor.generate_monitoring_report()

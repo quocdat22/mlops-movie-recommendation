@@ -1,9 +1,10 @@
-import os
-import requests
 import json
-from dotenv import load_dotenv
 import logging
+import os
 import time
+
+import requests
+from dotenv import load_dotenv
 
 # Cấu hình logging
 logging.basicConfig(
@@ -98,7 +99,7 @@ def save_data_to_raw_file(data, output_path):
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
         logging.info(f"Đã lưu dữ liệu thành công vào: {output_path}")
-    except IOError as e:
+    except OSError as e:
         logging.error(f"Lỗi khi ghi file: {e}")
 
 
