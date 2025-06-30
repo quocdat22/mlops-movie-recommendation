@@ -70,7 +70,7 @@ st.markdown(
 
 class MLOpsDashboard:
     def __init__(self):
-        self.api_base_url = "http://localhost:8000"
+        self.api_base_url = os.getenv("API_URL", "http://localhost:8000")
         self.project_root = Path(__file__).parent.parent.parent
         self.monitoring_dir = Path("monitoring")
         self.monitoring_dir.mkdir(exist_ok=True)
