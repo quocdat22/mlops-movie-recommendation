@@ -1,0 +1,32 @@
+=== MOVIE DATA PREPROCESSING REPORT ===
+Thời gian xử lý: 2025-06-30 04:28:15.908991
+Tổng số phim: 5634
+
+=== COVERAGE ANALYSIS ===
+Phim có overview: 5613/5634 (99.6%)
+Phim có cast info: 5438/5634 (96.5%)
+Phim có keywords: 5409/5634 (96.0%)
+Phim có tags: 5620/5634 (99.8%)
+
+=== THỐNG KÊ TAGS ===
+Độ dài trung bình tags: 754.9 ký tự
+Độ dài tối đa tags: 2336 ký tự
+Độ dài tối thiểu tags: 0 ký tự
+Số phim có tags rỗng: 14
+
+=== FEATURE ENGINEERING STRATEGY ===
+Sử dụng overview-heavy strategy với tỷ lệ 3:1:2
+- Overview: 3x trọng số (context chính)
+- Cast: 1x trọng số (nhân vật chính)
+- Keywords: 2x trọng số (specificity)
+
+=== MẪU TAGS ===
+Phim: The Shawshank Redemption
+Tags: imprisoned 1940s double murder wife lover upstanding banker andy dufresne begin new life shawshank prison put accounting skill work amoral warden long stretch prison dufresne come admired inmate including older prisoner named red integrity unquenchable sense hope imprisoned 1940s double murder wife ...
+
+Phim: The Godfather
+Tags: spanning year 1945 1955 chronicle fictional italian american corleone crime family organized crime family patriarch vito corleone barely survives attempt life youngest son michael step take care would killer launching campaign bloody revenge spanning year 1945 1955 chronicle fictional italian americ...
+
+Phim: The Godfather Part II
+Tags: continuing saga corleone crime family young vito corleone grows sicily 1910s new york 1950s michael corleone attempt expand family business la vega hollywood cuba continuing saga corleone crime family young vito corleone grows sicily 1910s new york 1950s michael corleone attempt expand family busine...
+

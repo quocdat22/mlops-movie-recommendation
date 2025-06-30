@@ -1,0 +1,2451 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            14
+        ],
+        "id": 1501793,
+        "original_language": "en",
+        "original_title": "ONCE UPON A LOO",
+        "overview": "In the silence of an old Indian bathroom, a man’s routine moment spirals into psychological distortion. Water drips, glitches spark, and his body begins to fade — blending into nature, space, and static. Once Upon a Loo explores the fragile boundary between the mundane and the metaphysical — all from the seat of solitude.",
+        "popularity": 0.5677,
+        "poster_path": "/w6fLO4s3xzr2Quk7WPk6GtlNZiA.jpg",
+        "release_date": "2025-06-28",
+        "title": "ONCE UPON A LOO",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 3,
+        "cast": [
+            "YOGESHWARAN"
+        ],
+        "keywords": [
+            "psychotic",
+            "loo",
+            "once upon a loo"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/oNSZmOdLEZ1Ipw736WMmBOkEJK7.jpg",
+        "genre_ids": [
+            10770,
+            35,
+            10749
+        ],
+        "id": 1468471,
+        "original_language": "en",
+        "original_title": "A Machu Picchu Proposal",
+        "overview": "Katie agrees to join her brother Dan and his girlfriend Luciana on a trip to Peru. Dan plans to propose to Luciana in a grand way at Machu Picchu at the end of the week and needs Katie’s Spanish speaking skills to ask Luciana’s Peruvian father for his blessing. However, when Luciana’s friend, Chef Carlos, arrives, he accidentally ruins each proposal attempt. Refusing to give up, Katie does everything in her power to make this proposal happen, until Dan calls it off. Katie must lean into Chef Carlos’ spontaneity to not only save the day and the proposal, and Carlos may just win Katie’s heart too!",
+        "popularity": 0.9956,
+        "poster_path": "/ySrjf2ExY0qlKfl3HjmsOgMSTFN.jpg",
+        "release_date": "2025-06-28",
+        "title": "A Machu Picchu Proposal",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Rhiannon Fish",
+            "Alec Santos",
+            "Christopher Vieira"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/21zzeGd4E5OanMBXQjdSLIqaAN8.jpg",
+        "genre_ids": [
+            28
+        ],
+        "id": 1480907,
+        "original_language": "en",
+        "original_title": "UFC 317: Topuria vs. Oliveira",
+        "overview": "UFC 317: Topuria vs. Oliveira was a mixed martial arts event produced by the Ultimate Fighting Championship that took place on June 28, 2025, at T-Mobile Arena in Paradise, Nevada, part of the Las Vegas Valley, United States.",
+        "popularity": 1.4763,
+        "poster_path": "/nMdjudaUKePXVSaCaqYFTTGZIik.jpg",
+        "release_date": "2025-06-28",
+        "title": "UFC 317: Topuria vs. Oliveira",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Ilia Topuria",
+            "Charles Oliveira",
+            "Alexandre Pantoja"
+        ],
+        "keywords": [
+            "mixed martial arts (mma)",
+            "combat sports",
+            "ufc"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/lErnJtdiYWjx8tqpVrq0PiNSp6m.jpg",
+        "genre_ids": [
+            10749,
+            35
+        ],
+        "id": 1141791,
+        "original_language": "en",
+        "original_title": "Worth the Wait",
+        "overview": "A group of strangers' lives fatefully intertwine as they navigate budding love, confront profound loss and encounter old flames.",
+        "popularity": 0.9206,
+        "poster_path": "/y81t8iuiEwsxdE5snmjjZMGmTjW.jpg",
+        "release_date": "2025-06-28",
+        "title": "Worth the Wait",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Lana Condor",
+            "Ross Butler",
+            "Sung Kang"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9ofzhgooBCfmrgQp2six6f6sIY0.jpg",
+        "genre_ids": [
+            9648,
+            53
+        ],
+        "id": 1500066,
+        "original_language": "en",
+        "original_title": "My Sister's Double Life",
+        "overview": "When Chelsea's sister vanishes after a late-night shift at a diner, she must convince the police that someone has abducted her. As she races against the clock, she discovers that not only is her sister's life in danger, but the captor is now after her...and they'll stop at nothing until both women are dead.",
+        "popularity": 0.4967,
+        "poster_path": "/apcxmPdZVTViDTKY6sBjlm7QeWq.jpg",
+        "release_date": "2025-06-29",
+        "title": "My Sister's Double Life",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sarah Grey",
+            "Amalia Williamson",
+            "Cody Ray Thompson"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/mBuFKsBxY6mDQmrpAR0ZtEI0IYd.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1493046,
+        "original_language": "en",
+        "original_title": "To Kill a War Machine",
+        "overview": "Through real-time bodycam and phone footage, frontline activists take audiences along on their audacious raids to tear down arms factories around the UK. Since 2020, direct action group Palestine Action have documented their operations to dismantle the companies and infrastructure supplying weapons to the ongoing genocide in Gaza.",
+        "popularity": 0.4559,
+        "poster_path": "/likjAbXCgtuYP42SlwwacIlpF3l.jpg",
+        "release_date": "2025-06-28",
+        "title": "To Kill a War Machine",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            53,
+            27,
+            9648
+        ],
+        "id": 1245981,
+        "original_language": "ko",
+        "original_title": "시크릿 하우스",
+        "overview": "After their serial killer father is imprisoned, Sung-min, his three siblings, and his mother move to a tranquil country cottage in Taiwan. Sung-min meets a local girl, Rihwa, and dreams of a fresh start. However, tragedy strikes when Sung-min's mother suddenly dies. Fearing her children being sent to orphanages, she asks Sung-min to keep her death a secret until he becomes an adult in six months. He follows her will and lives on with his siblings until a major disruption occurs. Will Sung-min be able to save his siblings?",
+        "popularity": 0.4415,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "The Secret House",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Lee Hong-nae",
+            "Vivian Sung",
+            "Yoo Seon-ho"
+        ],
+        "keywords": [
+            "haunted house",
+            "remake",
+            "supernatural horror"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1500098,
+        "original_language": "en",
+        "original_title": "Pretty Hurts",
+        "overview": "To win scholarship money for college, Lauren enters the same beauty pageant her mom once dominated in her youth. Lauren is thrust into a dark, toxic world of cutthroat competition and manipulation. Too preoccupied with the pageant, Lauren doesn’t realize that her best friend Rae is falling seriously ill with an uncommon and potentially deadly disease — meningitis B – prompting her to turn the pageant platform into a tool for awareness.",
+        "popularity": 0.5389,
+        "poster_path": "/hLtj3mZm3W3LJZbQEXddw2WBhOV.jpg",
+        "release_date": "2025-06-28",
+        "title": "Pretty Hurts",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sarah Borne",
+            "Haylie Duff"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/wMXOi0VWJqUzO1XJww6TRDUglHn.jpg",
+        "genre_ids": [
+            27,
+            18
+        ],
+        "id": 1365614,
+        "original_language": "en",
+        "original_title": "No Choice",
+        "overview": "A young woman becomes unexpectedly pregnant and starts having harrowing, prophetic dreams that she will die if she can't get an abortion.",
+        "popularity": 0.3191,
+        "poster_path": "/jUnLI8VdDuf4KjZBoXgUs31TBBe.jpg",
+        "release_date": "2025-06-29",
+        "title": "No Choice",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Hannah Deale",
+            "Jennifer Herzog",
+            "Robert Denzel Edwards"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jufQG3Sve1HlAQW54xZ1nxYrPAD.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 1495672,
+        "original_language": "zh",
+        "original_title": "夏季成人礼",
+        "overview": "",
+        "popularity": 0.3322,
+        "poster_path": "/dxQCot5i7eTmWoFHscCAm2awvle.jpg",
+        "release_date": "2025-06-28",
+        "title": "夏季成人礼",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Yue Yang",
+            "Hai Yitian",
+            "Li Naiwen"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/b8OL2m1g34rJSC8smfz8iok3Efo.jpg",
+        "genre_ids": [
+            35
+        ],
+        "id": 1486426,
+        "original_language": "en",
+        "original_title": "A Bloody Mess",
+        "overview": "A true-crime documentarian and her trusty crew investigate a small-town tragedy that’s faded into memory as a national joke. As her determination to uncover the truth becomes more and more intense, her methods become less and less ethical—until they become dangerous.",
+        "popularity": 0.4011,
+        "poster_path": "/1sppl8rSLI65pKHDfqdTtoTXXUc.jpg",
+        "release_date": "2025-06-28",
+        "title": "A Bloody Mess",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sydney O'Toole",
+            "Mary Birdsong",
+            "Anna Bezahler"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/xM2vjXSdOhqWc3683lGlUq2f8Oe.jpg",
+        "genre_ids": [
+            35
+        ],
+        "id": 1489153,
+        "original_language": "en",
+        "original_title": "American Comic",
+        "overview": "American Comic is a fake documentary that follows two up-and-coming stand-ups, who, despite being from opposite sides of the comedy cultural divide, are nearly identical in their shittiness.",
+        "popularity": 0.3104,
+        "poster_path": "/zDpkgeHZPkQtnFgCQiekbPZaBOH.jpg",
+        "release_date": "2025-06-29",
+        "title": "American Comic",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Joe Kwaczala",
+            "Sam Wiles",
+            "John Eisenrich"
+        ],
+        "keywords": [
+            "mockumentary"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            35
+        ],
+        "id": 1442990,
+        "original_language": "en",
+        "original_title": "Strands",
+        "overview": "Husband finds out he's not the biggest fan of wife's shedding head, as he confronts her over and over, the strands of hair don't become fan of him.",
+        "popularity": 0.1836,
+        "poster_path": "/5AxYQWmiwpeV3LAyWnqZDQevPOX.jpg",
+        "release_date": "2025-06-29",
+        "title": "Strands",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Eboni Arevalo",
+            "Ryan Riddle"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1501518,
+        "original_language": "en",
+        "original_title": "Tokyo Story: The Pitzel Restoration",
+        "overview": "A recut of tokyo story using footage unseen before.",
+        "popularity": 0.3634,
+        "poster_path": "/h6jSDEUtt0F5whuse6tnJqrI6iT.jpg",
+        "release_date": "2025-06-28",
+        "title": "Tokyo Story: The Pitzel Restoration",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1490298,
+        "original_language": "ko",
+        "original_title": "두 번의 장례",
+        "overview": "",
+        "popularity": 0.3121,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Swapped Funerals",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Im Jee-ho",
+            "Kim Keum-soon",
+            "Kim Hak-seon"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35,
+            878,
+            18,
+            10770
+        ],
+        "id": 1474050,
+        "original_language": "ja",
+        "original_title": "おい、太宰",
+        "overview": "Set by the seaside, this is a time-slip comedy about a man who adores Osamu Dazai and struggles to transcend time.",
+        "popularity": 0.3024,
+        "poster_path": "/ivAuntCYAIVY7R9raAexSXCDpcB.jpg",
+        "release_date": "2025-06-29",
+        "title": "Oi, Dazai",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Kei Tanaka",
+            "Eiko Koike",
+            "Miyazawa Emma"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/10RyyalJZ0Qih8P6lFHBiArmWND.jpg",
+        "genre_ids": [
+            27,
+            18
+        ],
+        "id": 1435979,
+        "original_language": "ja",
+        "original_title": "カニバさん・異端の純愛",
+        "overview": "Tamako, a girl suffering from anorexia, falls in love with Yōko, a female photographer who shares the same struggle. The two plan to die together in a double suicide. However, just before doing so, Yōko confesses, “The truth is… I can’t stop wanting to eat you.” And thus begins a twisted ritual of love, filled with terror…",
+        "popularity": 0.3158,
+        "poster_path": "/8ROCLwKtAUDPSAMgQQ2eLadJK4J.jpg",
+        "release_date": "2025-06-28",
+        "title": "The Cannibal Girl",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Brazil",
+            "Kokoro Tachibana",
+            "Ryota Komatsu"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1501784,
+        "original_language": "en",
+        "original_title": "SKG: Death Row Records - Thru My Eyez",
+        "overview": "LA rapper shares her raw journey from troubled youth to Death Row Records artist, facing addiction, loss, and violence while working with legends and finding her path to redemption.",
+        "popularity": 0.38,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "SKG: Death Row Records - Thru My Eyez",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35
+        ],
+        "id": 1269399,
+        "original_language": "de",
+        "original_title": "Holy Meat",
+        "overview": "A village amateur production of The Passion of the Christ degenerates into a blasphemous rave and brings together three characters who could hardly be more different: Director Roberto, who has been canceled from the Berlin off-theater scene, the young butcher Mia, who suddenly becomes the guardian of her sister with Down syndrome, and Father Oskar Iversen, who has turned his back on his Danish island parish for mysterious reasons. As his new parish in the Swabian village of Winteringen is about to be dissolved and Oskar cannot return to Denmark under any circumstances, he tries to convince the theater-loving archbishop to keep the parish alive by putting on a spectacular passion play.",
+        "popularity": 0.3563,
+        "poster_path": "/tvhmtMo5MgD1uEi7PXZRecQHJX7.jpg",
+        "release_date": "2025-06-29",
+        "title": "Holy Meat",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Lars Brygmann",
+            "Jens Albinus",
+            "Pit Bukowski"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            16,
+            27
+        ],
+        "id": 1354858,
+        "original_language": "en",
+        "original_title": "Sorry",
+        "overview": "An answer phone message",
+        "popularity": 0.141,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "Sorry",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/hPPMpVPWLRp1cT39EmF1zxWMZcB.jpg",
+        "genre_ids": [
+            18,
+            53
+        ],
+        "id": 1417622,
+        "original_language": "fr",
+        "original_title": "Limbes",
+        "overview": "He sinks… Little by little. Eloïse. His obsession. Eloïse… Everywhere. All the time. Eloïse. His disturbed mind slips into the limbo. He starts following her. Eloïse. No one else. The one. The only.",
+        "popularity": 0.2066,
+        "poster_path": "/c0qqkvilHJSONhRhBvRHqqGlWNm.jpg",
+        "release_date": "2025-06-28",
+        "title": "Limbo",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Solann",
+            "Xavier Mussel",
+            "Rodolphe Caucase"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/iWdXRUJd4KuquOb05LWwV0Bvk7V.jpg",
+        "genre_ids": [
+            27
+        ],
+        "id": 1415664,
+        "original_language": "en",
+        "original_title": "Vignettes",
+        "overview": "A Child Lost. A Loved One Gone. A Friend.",
+        "popularity": 0.2171,
+        "poster_path": "/tt8nS9Lur5oWy2uqaDhqWtPk5cV.jpg",
+        "release_date": "2025-06-28",
+        "title": "Vignettes",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Andrew Farmer",
+            "Tamara Villalon",
+            "Chip Sebastian"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1478148,
+        "original_language": "en",
+        "original_title": "Before the Moon Falls",
+        "overview": "In May 2024, news of a murder in the Polynesian nation of Samoa rocked the Pacific. The perpetrator, Sia Figiel, was a trailblazing novelist and poet who won international acclaim for being the first to write about the difficult realities Samoan girls and women face. The victim was her friend, who was also a poet.",
+        "popularity": 0.3326,
+        "poster_path": "/kKjURpSSG6k91b18NaJJ0v5ozE2.jpg",
+        "release_date": "2025-06-28",
+        "title": "Before the Moon Falls",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1452842,
+        "original_language": "en",
+        "original_title": "The last dinner",
+        "overview": "Bound by an unfulfilled promise, a man prepares a meal for his mother, only to find himself lost in a night where memory and reality dissolve into one.",
+        "popularity": 0.2408,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "The last dinner",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Aleazar Abebe"
+        ],
+        "keywords": [
+            "experimental surrealism",
+            "psychological drama",
+            "psychological realism",
+            "melancholia and loss",
+            "obsessive ritual"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            80
+        ],
+        "id": 395964,
+        "original_language": "en",
+        "original_title": "The Disposers",
+        "overview": "An upcoming movie by Chris Escorrega and Thomas Petahtegoose",
+        "popularity": 0.1896,
+        "poster_path": "/wdtAke7Bz6FxSdHCeFPcjx2naXX.jpg",
+        "release_date": "2025-06-29",
+        "title": "The Disposers",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Chris Escorrega",
+            "Thomas Petahtegoose",
+            "Ben Taylor"
+        ],
+        "keywords": [
+            "gangster"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            14,
+            35
+        ],
+        "id": 1442999,
+        "original_language": "en",
+        "original_title": "Mond Appétit",
+        "overview": "Mond Appétit is the newest film of director Sjoerd de Bont",
+        "popularity": 0.1027,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Mond Appétit",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Lisanne Hoefnagels",
+            "Sanne Stikkel",
+            "Perry Mulder"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1429415,
+        "original_language": "ja",
+        "original_title": "お前と密会 2025",
+        "overview": "",
+        "popularity": 0.2635,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "お前と密会 2025",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Masaharu Fukuyama"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/zv6L69InuSxg7DOeMGjl5UVHXdi.jpg",
+        "genre_ids": [
+            10749,
+            18
+        ],
+        "id": 1502278,
+        "original_language": "pt",
+        "original_title": "Beijo de Musa",
+        "overview": "In the heat of a Manaus night, the young women, Orfea (she) and Eurídice (they/she) have fun with their friends in the middle of parties and bars of the city's queer nightlife, all while they try to hide what they feel for each other.",
+        "popularity": 0.1671,
+        "poster_path": "/327lvy7RqESB9FWSc4XZcjz8jlt.jpg",
+        "release_date": "2025-06-28",
+        "title": "Muse's Kiss",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Duca Vieira",
+            "Andira Angeli",
+            "Syd Elliot"
+        ],
+        "keywords": [
+            "lgbt",
+            "lgbt teen",
+            "teen drama",
+            "representation",
+            "mulheres",
+            "lgbt activism",
+            "passion and romance",
+            "woman"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1502094,
+        "original_language": "en",
+        "original_title": "Behind The Lens: The Dune Recreations Documentary",
+        "overview": "Director and producer of the Dune Recreations project, Khayta Diongue, immerses viewers into the set of the production with the perspectives of the cast and crew as they replicate shots from the Dune franchise.",
+        "popularity": 0.1398,
+        "poster_path": "/AupniYuL3DVgrevHAFPz0BDUEH.jpg",
+        "release_date": "2025-06-28",
+        "title": "Behind The Lens: The Dune Recreations Documentary",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Andrew Krautheim",
+            "Andrea Villanueva",
+            "Alexa Hartman"
+        ],
+        "keywords": [
+            "khayta diongue",
+            "khayta",
+            "dune recreations",
+            "dune",
+            "justin yoon",
+            "ian novo",
+            "ian novoselac",
+            "behind the lens",
+            "behind the lens: the dune recreations documentary"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            28,
+            35
+        ],
+        "id": 1458779,
+        "original_language": "en",
+        "original_title": "Spectrum Syndicate",
+        "overview": "In the fictional country of Magorigan, where autistic people have just been segregated from society and the workplace, a creative autistic individual named Sora Altair must join a group of special secret agents to save the world from a bomb.",
+        "popularity": 0.1607,
+        "poster_path": "/1EPsOipROjrtQ604kmnUy7cwLiP.jpg",
+        "release_date": "2025-06-28",
+        "title": "Spectrum Syndicate",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Phoenix Nye",
+            "Tia McCarthy",
+            "Arlo Newton"
+        ],
+        "keywords": [
+            "race against time",
+            "autism",
+            "wheelchair user   ",
+            "lesbian relationship",
+            "learning disability",
+            "evil dictator",
+            "super spy",
+            "action comedy",
+            "gunfights",
+            "trans led production",
+            "comedy",
+            "action",
+            "lgbtq+",
+            "lgbtqia+",
+            "dystopian future",
+            "fictional country",
+            "autistic protagonist"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rTRCzrpHlpMJGy4zO59DCZIcVc4.jpg",
+        "genre_ids": [
+            35,
+            27,
+            18
+        ],
+        "id": 1411880,
+        "original_language": "en",
+        "original_title": "Take Care",
+        "overview": "A self-destructive woman deliberately injures herself to be taken care of by an ER nurse she's grown attached to.",
+        "popularity": 0.1721,
+        "poster_path": "/gSILXvFZX8MP9Qx4yLpiVlPeC8s.jpg",
+        "release_date": "2025-06-28",
+        "title": "Take Care",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Courtney Pauroso",
+            "Stephanie Courtney",
+            "DeMorge Brown"
+        ],
+        "keywords": [
+            "dark comedy",
+            "body horror"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/eurT50TAm2U9q1K8iwqgijOaHvq.jpg",
+        "genre_ids": [
+            18,
+            35
+        ],
+        "id": 1504157,
+        "original_language": "en",
+        "original_title": "WWE Night Of Champions 2025",
+        "overview": "The 2025 Night of Champions, also promoted as Night of Champions: Riyadh, is an upcoming professional wrestling pay-per-view (PPV) and livestreaming event produced by the American company WWE. It will be the 11th Night of Champions and will take place on Saturday, June 28, 2025, at the Kingdom Arena in Riyadh, Saudi Arabia, and will feature wrestlers from the Raw and SmackDown brand divisions.",
+        "popularity": 0.7249,
+        "poster_path": "/aekTmCJiHxoLkIf70EBsbwSGBoU.jpg",
+        "release_date": "2025-06-28",
+        "title": "WWE Night Of Champions 2025",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "John Cena",
+            "Phil Brooks",
+            "Cody Rhodes"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/iZVKvnmkIv5KFZqHJvaWRS6JVIy.jpg",
+        "genre_ids": [
+            35
+        ],
+        "id": 1480888,
+        "original_language": "en",
+        "original_title": "Goodbye Party",
+        "overview": "Newly broken up with and over everything, Rowan throws himself a goodbye party before he blasts himself out of Brooklyn - literally.",
+        "popularity": 0.1142,
+        "poster_path": "/f8q6mNAj6bXTlHMutoHRcrjHjs7.jpg",
+        "release_date": "2025-06-28",
+        "title": "Goodbye Party",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Nathan Pearson",
+            "Lynn Kim Do",
+            "Zia Lawrence"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            16,
+            27
+        ],
+        "id": 1366236,
+        "original_language": "en",
+        "original_title": "උපදාන",
+        "overview": "In the land of Sindas, an alternate reality of ancient Sri Lanka, a young prince is denied his ancestral wealth. With the help of a forbidden ritual he tries to summon a demon that will do his bidding. But all rituals require an offering...",
+        "popularity": 0.07,
+        "poster_path": "/yeNkedJYWsG5X6Vc2lHioGoy2QY.jpg",
+        "release_date": "2025-06-28",
+        "title": "Upadana (Offering)",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/cUlWFpbx48ZYR3HeSjA2vrr6deC.jpg",
+        "genre_ids": [
+            18,
+            10749,
+            14
+        ],
+        "id": 1487541,
+        "original_language": "fr",
+        "original_title": "Orphée",
+        "overview": "Fresh out the depths of the Underworld, Orpheus stumbles on a providential fisherman. The peasant helps him to get well and afterward, the talented poet proceeds to tell his story...",
+        "popularity": 0.1556,
+        "poster_path": "/a1yeucoP4FFOMOhaoq9IQfYjC5q.jpg",
+        "release_date": "2025-06-28",
+        "title": "Orpheus",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Timéo Rigaut",
+            "Emma Desse Maraval",
+            "Julien Omer-Decugis"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/y8NrWFepgg3G9hvBIjwdXVIHqJR.jpg",
+        "genre_ids": [
+            12,
+            37,
+            35
+        ],
+        "id": 1501573,
+        "original_language": "fr",
+        "original_title": "Nomades",
+        "overview": "A year after his suicide, the Nomad returns from the dead. He wanders aimlessly until he finds a compass that shows him the way, secretly hoping to forget his fears and responsibilities along the road. Other wanderers join his quest, unsure of where it will lead them.",
+        "popularity": 0.058,
+        "poster_path": "/dKls0EAhhzsQyofeEbxxU8ncUR5.jpg",
+        "release_date": "2025-06-29",
+        "title": "Nomads",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Waël Haddad",
+            "Léa Del Rio",
+            "Vincent Tran"
+        ],
+        "keywords": [
+            "cowboy",
+            "nomad",
+            "western"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1504185,
+        "original_language": "pt",
+        "original_title": "Kunitori",
+        "overview": "In a gentrified near future, the owners of the last sporting club in Lisbon spend one final moment together after learning of its sale.",
+        "popularity": 0.076,
+        "poster_path": "/qprXyfHIFxSd9cXv9W8MaETulK5.jpg",
+        "release_date": "2025-06-28",
+        "title": "Kunitori",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Fernando Rodrigues",
+            "João Pinto Dias",
+            "João Beijinho"
+        ],
+        "keywords": [
+            "lisbon, portugal",
+            "gentrification"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            28,
+            18,
+            12,
+            36
+        ],
+        "id": 1502339,
+        "original_language": "en",
+        "original_title": "Young Warrior",
+        "overview": "Inspired by true stories that are dedicated to the young underaged soldiers \"Young Warriors\" who serve in World War II reminding all that wars are started by men but fought by boys. A young soldier straight out of high school, Jack Miller, from a suburb of Chicago, finds himself lost behind enemy lines in war torn France.",
+        "popularity": 0.1192,
+        "poster_path": "/4qiOsaBHxFcwIoxrYkEK6dOdR2S.jpg",
+        "release_date": "2025-06-28",
+        "title": "Young Warrior",
+        "video": false,
+        "vote_average": 9.0,
+        "vote_count": 1,
+        "cast": [
+            "Tristin A. Lawrence",
+            "Austin J. Lawrence",
+            "Logan Tanner"
+        ],
+        "keywords": [
+            "world war ll",
+            "young warriors",
+            "young warrior"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "id": 1038190,
+        "original_language": "ru",
+        "original_title": "Граница",
+        "overview": "Father and daughter are fitting out their house away from civilization. Shots are heard in the forest and the father is surprised to learn that his daughter has killed an unexpected animal for dinner. Since this moment, he realizes trouble is close.",
+        "popularity": 0.1493,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "The Fence",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Vyacheslav Shatnenko",
+            "Eva Kuzmenko",
+            "Liliana Petrova"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1489304,
+        "original_language": "en",
+        "original_title": "Terroir",
+        "overview": "A young wine critic (Madison Hu) returns to a French vineyard one year after giving it a bad review. There, she and her friends become the target of a masked killer.",
+        "popularity": 0.1251,
+        "poster_path": "/wNt30mUzSyCrsztRU7JhDer6m7o.jpg",
+        "release_date": "2025-06-28",
+        "title": "Terroir",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Madison Hu",
+            "Leenya Rideout",
+            "Naomi Rubin"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/shhggUq6FxrLTYfvtfQCPkDvKKc.jpg",
+        "genre_ids": [
+            28
+        ],
+        "id": 1471535,
+        "original_language": "cs",
+        "original_title": "OKTAGON 73: Eckerlin vs. Pukač",
+        "overview": "",
+        "popularity": 0.0807,
+        "poster_path": "/pTHHId6FrF4qrFFTOzOH4LYBhTu.jpg",
+        "release_date": "2025-06-28",
+        "title": "OKTAGON 73: Eckerlin vs. Pukač",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Christian Eckerlin",
+            "Robert Pukac",
+            "Zhalgas Zhumagulov"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1489305,
+        "original_language": "en",
+        "original_title": "Tether",
+        "overview": "A woman running an isolated space station receives mysterious transmissions and must quickly unravel who or what is sending them, or an untold number of lives could be lost.",
+        "popularity": 0.0757,
+        "poster_path": "/3MK4uUa39YxHEXnfVszXmGx4S2H.jpg",
+        "release_date": "2025-06-28",
+        "title": "Tether",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Geffri Maya",
+            "Ming-Na Wen",
+            "Samm Levine"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1489142,
+        "original_language": "en",
+        "original_title": "Reunion",
+        "overview": "A man happens to run into an old acquaintance from high school while on a hike in the woods.",
+        "popularity": 0.1025,
+        "poster_path": "/3HpreUadDyLHm3ZsvFDzbPn97Qj.jpg",
+        "release_date": "2025-06-28",
+        "title": "Reunion",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Frank Mosley",
+            "Justin Locklear"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1489147,
+        "original_language": "en",
+        "original_title": "I'm Not Sure",
+        "overview": "Charlie, a depressed night manager of a motel, and Bridgette, a young naive woman on the brink of adulthood, engage in late-night conversation, sharing intimate secrets that shift how they see each other.",
+        "popularity": 0.1004,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "I'm Not Sure",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Emily Robinson",
+            "Frank Mosley"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            16,
+            27
+        ],
+        "id": 1442994,
+        "original_language": "en",
+        "original_title": "Dysphoria",
+        "overview": "Three figures, each isolated from society, go on a journey of transformation. One trapped in a room of voyeuristic eyes, another whose body is changing in ways they can’t comprehend and the other hidden behind a mask they cannot remove. They each struggle to free themselves, accepting transformation; breaking the mould and becoming their true selves.",
+        "popularity": 0.0629,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Dysphoria",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/3PTYRj7IFTio1z12N3Em2UEy7HP.jpg",
+        "genre_ids": [
+            10749
+        ],
+        "id": 1481405,
+        "original_language": "hi",
+        "original_title": "Tara",
+        "overview": "A Dalit trans woman navigates love and identity after falling for an upper-caste man, forcing her to confront the silence around her caste. Tara is the story of a 26-year-old Dalit trans woman who meets a singer named Aman at a queer party, sparking an immediate connection.",
+        "popularity": 0.0988,
+        "poster_path": "/h1eubqf8gG35i8Q3uJRaTnzVI2f.jpg",
+        "release_date": "2025-06-28",
+        "title": "Tara",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sumali Khaniwale",
+            "Sankalp Joshi",
+            "Siya Malasi"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1497019,
+        "original_language": "ko",
+        "original_title": "파기상접: 깨진 그릇 붙이기",
+        "overview": "",
+        "popularity": 0.0764,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Kintsugi",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9CVKJCqOD6fgyBM1GkCfG588g8t.jpg",
+        "genre_ids": [
+            27,
+            18
+        ],
+        "id": 1502842,
+        "original_language": "en",
+        "original_title": "Spell Defeat",
+        "overview": "A resentful high school senior attempts to magically curse her academic rival in order to get a superior score on her SATs.",
+        "popularity": 0.0618,
+        "poster_path": "/z6Qged8l3lSpKVIYq55ta67zdMd.jpg",
+        "release_date": "2025-06-29",
+        "title": "Spell Defeat",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Minjoo Kim",
+            "Allison (Jiayu) Luo",
+            "Jena Mroz"
+        ],
+        "keywords": [
+            "high school",
+            "witchcraft",
+            "asian american"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            9648,
+            35
+        ],
+        "id": 1500811,
+        "original_language": "ar",
+        "original_title": "Samra's Dollhouse",
+        "overview": "A heartbroken Tunisian film director finds the perfect male lead for her new romance movie, but during rehearsals the young actor begins to suspect that his role may not be a fictitious one.",
+        "popularity": 0.076,
+        "poster_path": "/fOkHFwWMCAr27Fzllx2OmL0ElQU.jpg",
+        "release_date": "2025-06-28",
+        "title": "Samra's Dollhouse",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Mariam Al Ferjani",
+            "Mansour Klila"
+        ],
+        "keywords": [
+            "dance competition",
+            "love",
+            "tunisia",
+            "power dynamics",
+            "deranged"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1485440,
+        "original_language": "sr",
+        "original_title": "Бели дани",
+        "overview": "Two sisters meet after a few years of being apart. The past becomes the only thing that binds them now.",
+        "popularity": 0.06,
+        "poster_path": "/a6B2V8OeyhxHHpzbMrRZbCsiaLZ.jpg",
+        "release_date": "2025-06-29",
+        "title": "Bright Summer Days",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sara Klimoska",
+            "Ivana Mladenović",
+            "Zlatan Vidović"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/pEBb33cDZAKLiXILmVWviygtqG4.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1426736,
+        "original_language": "fr",
+        "original_title": "Kaboul Chaos",
+        "overview": "A look back at the years leading up to the fall of Kabul and the perilous evacuation of civilians trapped inside the embassy in the hours following the Taliban's takeover of the country.",
+        "popularity": 0.077,
+        "poster_path": "/lNZbA72LiEgSvIxb49lrw8t9sYu.jpg",
+        "release_date": "2025-06-28",
+        "title": "Kabul Chaos",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "David Martinon",
+            "Thomas Guibert",
+            "Sonia Ghezali"
+        ],
+        "keywords": [
+            "war documentary"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            53,
+            27
+        ],
+        "id": 1354829,
+        "original_language": "en",
+        "original_title": "DO NOT OPEN",
+        "overview": "Three friends drive out to a lonely countryside house for a big weekend away only to realise far too late that the house has a fourth guest stalking them throughout their trip, a creature that can only be seen when it wants to be.",
+        "popularity": 0.0758,
+        "poster_path": "/8xhhKuVD4ge6NUrSka8W4eGz1Kn.jpg",
+        "release_date": "2025-06-28",
+        "title": "DO NOT OPEN",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Leah Rogers",
+            "Josh Sinclair Evans",
+            "Adam Deary"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1431857,
+        "original_language": "id",
+        "original_title": "Will Today Be a Happy Day",
+        "overview": "Mira, a single mother, must make a tough decision for her daughters future despite their joyful days together.",
+        "popularity": 0.0807,
+        "poster_path": "/2IoU9QLRQMF7kstoJqMCifh39PC.jpg",
+        "release_date": "2025-06-28",
+        "title": "Will Today Be a Happy Day",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Gendhis Maharani"
+        ],
+        "keywords": [
+            "will today be a happy day",
+            "wtbd"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35,
+            18
+        ],
+        "id": 1494760,
+        "original_language": "pt",
+        "original_title": "A Ver Navios",
+        "overview": "",
+        "popularity": 0.0858,
+        "poster_path": "/2ekRjkEehcoIuJlwP7nCe2cwMTY.jpg",
+        "release_date": "2025-06-28",
+        "title": "A Ver Navios",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Joana Lameira",
+            "Leonor Geirinhas da Costa",
+            "Filipa Neves"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1489039,
+        "original_language": "de",
+        "original_title": "Sechswochenamt",
+        "overview": "While the world is in lockdown as a result of the COVID-19 pandemic, Lore has to cope with a painful loss: her mother has died. Back in the small town of Erkelenz in North Rhine-Westphalia, she struggles against entrenched family structures and a paralyzing bureaucracy. Above all, she has to find a way to come to terms with the death and say goodbye to her mother.",
+        "popularity": 0.0746,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "Sechswochenamt",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Magdalena Laubisch",
+            "Lola Klamroth",
+            "Suzanne Ziellenbach"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9XatVc7JTGBEAzCFSPthUTITomy.jpg",
+        "genre_ids": [
+            53,
+            9648,
+            18,
+            80
+        ],
+        "id": 1492466,
+        "original_language": "es",
+        "original_title": "Los Sentidos de Elisa",
+        "overview": "",
+        "popularity": 0.0793,
+        "poster_path": "/fXlJvEi9mtu8mrMK7qxTJORFTr.jpg",
+        "release_date": "2025-06-28",
+        "title": "Los Sentidos de Elisa",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Alegria López Ibañez",
+            "Dani Segui",
+            "Ivan Castelló"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1501920,
+        "original_language": "pl",
+        "original_title": "A jak Antkowiak",
+        "overview": "",
+        "popularity": 0.0822,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "A jak Antkowiak",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Jerzy Antkowiak"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1503185,
+        "original_language": "ko",
+        "original_title": "Inhale",
+        "overview": "",
+        "popularity": 0.0722,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Inhale",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27
+        ],
+        "id": 1363479,
+        "original_language": "en",
+        "original_title": "Wet Ingredients",
+        "overview": "A young woman can't decide between two lovers, so she puts a love spell into a cake. The spell makes their love so intense that they'll do anything for it, including murder!",
+        "popularity": 0.1008,
+        "poster_path": "/yojr27Z2FHQgwLFvLVd2RACow8x.jpg",
+        "release_date": "2025-06-29",
+        "title": "Wet Ingredients",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Satta",
+            "Antonio Vaca",
+            "Trevor Hooper"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/qbLTth3j6VOSv7wAbTbsj3Cmuie.jpg",
+        "genre_ids": [
+            80,
+            53,
+            35
+        ],
+        "id": 1501981,
+        "original_language": "fr",
+        "original_title": "Meurtre au mini-golf",
+        "overview": "",
+        "popularity": 0.0264,
+        "poster_path": "/eqbbrcbcH1FIgqnHUMJQ786mhCJ.jpg",
+        "release_date": "2025-06-28",
+        "title": "Meurtre au mini-golf",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Thibault Patteuw",
+            "Chloé Dhiu",
+            "Corentin Roussel"
+        ],
+        "keywords": [
+            "mini-golf",
+            "minigolf",
+            "meutre",
+            "enquête"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/tpuIGAgjUzhZ3ib2BPTy5qy1G38.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1501794,
+        "original_language": "pt",
+        "original_title": "Sara na Osório",
+        "overview": "",
+        "popularity": 0.0577,
+        "poster_path": "/dEYTEqHDGqpJR2vhg88roWEeNbn.jpg",
+        "release_date": "2025-06-29",
+        "title": "Sara na Osório",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Sara Martinelli Atto"
+        ],
+        "keywords": [
+            "working class",
+            "trans woman",
+            "sexual discrimination"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/hgUelwTw7vdlmNGygFpOrdNq4R1.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1503665,
+        "original_language": "hi",
+        "original_title": "A Good Question",
+        "overview": "In Punjab’s Doaba region, a rooftop sculptor grapples with leaving home as his art and community reflect the hopes and sacrifices of migration.",
+        "popularity": 0.0486,
+        "poster_path": "/nTzeaoXWW2dwy1NvNFxCGB2s5lL.jpg",
+        "release_date": "2025-06-29",
+        "title": "A Good Question",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": [
+            "india",
+            "united kingdom",
+            "punjabi",
+            "documentary",
+            "a good question",
+            "sara saini",
+            "doc edge"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35
+        ],
+        "id": 1489042,
+        "original_language": "de",
+        "original_title": "Unterwegs im Namen der Kaiserin",
+        "overview": "While searching for the fountain of youth, the three best friends Romy, Karlheinz and Magda Gustav encounter a witch. She announces that the reincarnation of Empress Elisabeth is among them. They urgently need to find out who, otherwise the ghost will strike them down. A Sisi competition ensues - after all, who wouldn't want to be Empress and the once most beautiful woman in the world?",
+        "popularity": 0.0669,
+        "poster_path": "/k8ixzaBcKKpceoY8x5W1hJytMjx.jpg",
+        "release_date": "2025-06-29",
+        "title": "In the Name of the Empress",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Julia Windischbauer",
+            "Thomas Hauser",
+            "Benjamin Radjaipour"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27
+        ],
+        "id": 1442997,
+        "original_language": "en",
+        "original_title": "Pause",
+        "overview": "Two young women go camping together. They watch a film they shouldn't watch. There's an evil spirit that comes out of the film they watch.",
+        "popularity": 0.0465,
+        "poster_path": "/r9uoxtF4MzrxALMdVsZxCRrM15I.jpg",
+        "release_date": "2025-06-28",
+        "title": "Pause",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Adile Aran",
+            "Fatma Akyol"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1501790,
+        "original_language": "fr",
+        "original_title": "Moi Aussi Je Me Bats",
+        "overview": "20 years old Lili is finally able to live a peaceful life but an unexpected comeback will prevent her to lead her everyday life as she intents. She will have to fight and hold on to her habits to avoid drowning again.",
+        "popularity": 0.0871,
+        "poster_path": "/z7tQodPdxInn0qo7D2KpXXlRFLX.jpg",
+        "release_date": "2025-06-28",
+        "title": "I, Too, Struggle",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Luna Shorina",
+            "Romane Chavanat",
+            "Pauline Saguin"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27
+        ],
+        "id": 1363481,
+        "original_language": "fr",
+        "original_title": "La Barque",
+        "overview": "In an oppressive setting in the middle of the ocean, three women, accused of witchcraft by the sailor guiding their life boat, seize control of their destiny. Their quest for justice and freedom transforms into a mystical journey, unleashing powerful occult forces.  Based on the short story \"Dans la barque\" by Geneviève Blouin.",
+        "popularity": 0.0368,
+        "poster_path": "/9emVHX4LdfjmHxnXiINnT81A0IZ.jpg",
+        "release_date": "2025-06-29",
+        "title": "Lifeboat",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Carmen Ferlan",
+            "Karim Babin",
+            "Christine Bellerose"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1503183,
+        "original_language": "ko",
+        "original_title": "FULLSTOP",
+        "overview": "",
+        "popularity": 0.0639,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "FULLSTOP",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            53,
+            16
+        ],
+        "id": 1502346,
+        "original_language": "xx",
+        "original_title": "Blink",
+        "overview": "With every blink it draws nearer, until it no longer needs to move",
+        "popularity": 0.0629,
+        "poster_path": "/7wktU1vOUzK3soOIWpHSqJtx1ZI.jpg",
+        "release_date": "2025-06-28",
+        "title": "Blink",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1502639,
+        "original_language": "ru",
+        "original_title": "Палата № 6",
+        "overview": "Patient Gromov is admitted to a psychiatric hospital, and his attending physician is Dr. Ragin. Contact is established between the doctor and the patient. The hospital's chief physician, Khobotov, sees that the tandem of the doctor and the patient is disrupting the work of the entire hospital.",
+        "popularity": 0.044,
+        "poster_path": "/275TXkHWfvRR1IHc0D3tHWCwiLq.jpg",
+        "release_date": "2025-06-29",
+        "title": "Ward № 6",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            53
+        ],
+        "id": 1505470,
+        "original_language": "sv",
+        "original_title": "En liten promenad",
+        "overview": "",
+        "popularity": 0.0357,
+        "poster_path": "/e7LQ3609gtz8HGPvJF7Udp3s2CB.jpg",
+        "release_date": "2025-06-28",
+        "title": "En liten promenad",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Manfred Svansjö"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            10402
+        ],
+        "id": 1491519,
+        "original_language": "fr",
+        "original_title": "Les étoiles filantes",
+        "overview": "",
+        "popularity": 0.0718,
+        "poster_path": "/7YPPvH6io0J9I324GsNtXuumIDD.jpg",
+        "release_date": "2025-06-28",
+        "title": "Les étoiles filantes",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Carlux",
+            "Thibault Cilor",
+            "David Cilor"
+        ],
+        "keywords": [
+            "friendship",
+            "futuristic",
+            "music"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/dTTS6hnvPv70ekxddXxTjpaaYwW.jpg",
+        "genre_ids": [
+            35
+        ],
+        "id": 1479059,
+        "original_language": "en",
+        "original_title": "Munchies",
+        "overview": "After lighting up and getting the munchies, a group of vulgar teenage girls stumble into a botched robbery at their local convenience store.",
+        "popularity": 0.1183,
+        "poster_path": "/bhzjgPMPUtkGSHDLhXIgOVrIRyb.jpg",
+        "release_date": "2025-06-28",
+        "title": "Munchies",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Brianne Jackson",
+            "Caroline Buddendorf",
+            "Yamini Nambimadom"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            53
+        ],
+        "id": 1366239,
+        "original_language": "ro",
+        "original_title": "The Outsider",
+        "overview": "They say \"Brilliant things happen in calm minds.\" But what happens in a mind that is not? A late evening meditation becomes a horrifying premonition. And the worst part is, she is not alone.",
+        "popularity": 0.0243,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "The Outsider",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Miruna Stanciu"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1486215,
+        "original_language": "nl",
+        "original_title": "The Art of Living",
+        "overview": "",
+        "popularity": 0.0743,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "The Art of Living",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Lenny van Hout",
+            "Jannes van Laere"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35,
+            27
+        ],
+        "id": 1386836,
+        "original_language": "en",
+        "original_title": "Deaf vs. Dead",
+        "overview": "Ellie, a wannabe, deaf ghost-hunter enlists veteran ghost-hunter, Steven, to help her find evidence of ghosts, and to give her guidance as a fellow deaf person in \"the industry\". However, Steven is in denial about being deaf and his reluctance clashes with Ellie's optimism.",
+        "popularity": 0.0563,
+        "poster_path": "/iigVJqcstjZxdrkoUxD0tyKzdHx.jpg",
+        "release_date": "2025-06-28",
+        "title": "Deaf vs. Dead",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Elissa Weir"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jwPNGaWDLoaJFSnIafwmN0Fn15O.jpg",
+        "genre_ids": [
+            18,
+            35
+        ],
+        "id": 1503614,
+        "original_language": "en",
+        "original_title": "One Night in Brooklyn",
+        "overview": "The lives of four strangers intertwine when a couple's anniversary night spirals into a whirlwind of bizarre run-ins, chance encounters, and a frantic search for baby formula.",
+        "popularity": 0.0429,
+        "poster_path": "/6m0YWmxT9gdXzuBThDSRK8XrZYL.jpg",
+        "release_date": "2025-06-28",
+        "title": "One Night in Brooklyn",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Chip Connell",
+            "Elana Gantman",
+            "Ron Richards"
+        ],
+        "keywords": [
+            "dark comedy",
+            "brooklyn, new york city",
+            "drama",
+            "new york"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/qAbDnaxIJpDWxZwbZ0SrxhVmIjM.jpg",
+        "genre_ids": [
+            53,
+            9648,
+            10749
+        ],
+        "id": 1496539,
+        "original_language": "en",
+        "original_title": "Fred",
+        "overview": "After a cozy date, Noelia and Fred decide to move somewhere more private. Unfortunately for her, his intentions are not what they seem. Now, Noelia must escape through a dark forest to avoid becoming part of something far more sinister.",
+        "popularity": 0.0453,
+        "poster_path": "/yLh3KMw7g71EOyXKiPpxVHkBhl4.jpg",
+        "release_date": "2025-06-28",
+        "title": "Fred",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Rodrigo Durán-Guier",
+            "Paz Alfaro"
+        ],
+        "keywords": [
+            "serial killer",
+            "slasher",
+            "suspense thriller"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1501335,
+        "original_language": "en",
+        "original_title": "Leopard Dynasty – The Rise of Rana",
+        "overview": "Jhalana’s refuge, India's urban leopard habitat, is controlled by the strong and experienced Bahadur. But his dominance is being challenged – by his son, Rana! Once a quiet youngster, Rana has grown into an ambitious young male. But in the animal kingdom, power is not inherited – it is fought for with strength and persistence. Rana is not content with just securing his place; he wants more. To fulfill his ambitions, he forms a bond with one of his father's females, and what begins as a simple interaction soon turns into a powerful partnership. The aging Bahadur has held his territory for six years and will not tolerate his son's claim. Rana faces a decision: retreat or fight. But Rana follows his instincts.",
+        "popularity": 0.0387,
+        "poster_path": "/cMAy78Qzg9OG9uKKMSynZTq7HOo.jpg",
+        "release_date": "2025-06-28",
+        "title": "Leopard Dynasty – The Rise of Rana",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1504344,
+        "original_language": "en",
+        "original_title": "Astra",
+        "overview": "A prismatic view of flowers.",
+        "popularity": 0.0552,
+        "poster_path": "/4f7oHV6ZeC4ZAk9hC9mTMQnHCyf.jpg",
+        "release_date": "2025-06-28",
+        "title": "Astra",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": [
+            "ambient",
+            "abstract",
+            "experimental",
+            "textural"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1504363,
+        "original_language": "en",
+        "original_title": "Broken Boards",
+        "overview": "After a group of skaters lose their friend, they deal with grief in different ways, tearing up the group.",
+        "popularity": 0.1474,
+        "poster_path": "/axIdr6cOoJ1lYTdVlFw94izvbTP.jpg",
+        "release_date": "2025-06-28",
+        "title": "Broken Boards",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Archie George",
+            "George Grant",
+            "Ben Knapp"
+        ],
+        "keywords": [
+            "skateboarding"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1498911,
+        "original_language": "en",
+        "original_title": "The 7th Moon",
+        "overview": "A short experimental film that reinterprets the ancient Filipino tale of Bakunawa and the seven moons as an allegory for an abusive relationship. The story follows the “7th Moon” and his partner, Bakunawa. The film explores their relationship as it progresses in a destructive cycle of control, longing, and escape.",
+        "popularity": 0.0789,
+        "poster_path": "/tJCPgRv4f5SFeYbNIc0sJBwrE0s.jpg",
+        "release_date": "2025-06-28",
+        "title": "The 7th Moon",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            18
+        ],
+        "id": 1495287,
+        "original_language": "sr",
+        "original_title": "Običaji",
+        "overview": "A story about the journalist Aleksandar, who was assigned by his editor to write a story about an old mill located in a remote village deep in the forest. According to urban legend, the place is visited by demons who do not allow the local population to grind grain in that mill.",
+        "popularity": 0.0453,
+        "poster_path": "/xW4hjbQ1TmpR5fwjMqJDo68oa16.jpg",
+        "release_date": "2025-06-28",
+        "title": "The Original Sin",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Stojan Đorđević"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/aagGWFZzzysu62edFK0sWlKYvue.jpg",
+        "genre_ids": [],
+        "id": 1504139,
+        "original_language": "en",
+        "original_title": "You Don't Like Cake?",
+        "overview": "An inexperienced young man tries to overcome his insecurities on his next date before his engaged brother visits.",
+        "popularity": 0.0535,
+        "poster_path": "/AcEsYBJUpFOY93rtj58nh0tOIgy.jpg",
+        "release_date": "2025-06-29",
+        "title": "You Don't Like Cake?",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Bradley Beachum",
+            "Coby Larinde",
+            "Hannah Sulak"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/rFNzmZB1XhfFWsYVU1R15YJTj81.jpg",
+        "genre_ids": [
+            35,
+            53
+        ],
+        "id": 1468052,
+        "original_language": "en",
+        "original_title": "A Suburban Night's Dream",
+        "overview": "At a dinner party in quiet suburbia, a sinister plot is formed amongst a group of friends when one is late to arrive",
+        "popularity": 0.0535,
+        "poster_path": "/lDOnO6Gp8UUh2RixjcA6z4FFhS2.jpg",
+        "release_date": "2025-06-28",
+        "title": "A Suburban Night's Dream",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Tom Copping",
+            "Finlay Hogan",
+            "Lucy Geddes"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1504820,
+        "original_language": "pt",
+        "original_title": "Um breve respiro democrático",
+        "overview": "",
+        "popularity": 0.0286,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Um breve respiro democrático",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": [
+            "comunismo",
+            "história do brasil"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/gANz1xGLFWf4J6l3FfX2gNbZV4F.jpg",
+        "genre_ids": [
+            18,
+            10749
+        ],
+        "id": 1504692,
+        "original_language": "en",
+        "original_title": "If I Could Get You To Stay",
+        "overview": "A young man struggles to muster up the courage to ask his long-distance girlfriend to stay as they prepare to part ways once more.",
+        "popularity": 0.0143,
+        "poster_path": "/yIkoKqaai3a6imrnSTuK2mf0QAP.jpg",
+        "release_date": "2025-06-29",
+        "title": "If I Could Get You To Stay",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Hamish Wolstenholme",
+            "Erin Thwaites"
+        ],
+        "keywords": [
+            "romance",
+            "relationship",
+            "long distance relationship",
+            "romantic"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1504319,
+        "original_language": "fr",
+        "original_title": "L'Aqueduc de Seyssuel",
+        "overview": "Five fragments of observation and sensations during a journey with Gorneton's trail in Seyssuel, Isère. A work-in-progress with sounds, the interest of light and the solitude of a digital camera.",
+        "popularity": 0.0362,
+        "poster_path": "/hdBetWS7pMLnbNzgwZmT3h9TzZx.jpg",
+        "release_date": "2025-06-29",
+        "title": "The Aqueduct of Seyssuel",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Flo Mavy"
+        ],
+        "keywords": [
+            "countryside",
+            "light",
+            "avant-garde",
+            "montage",
+            "wood",
+            "documentary",
+            "avant garde film",
+            "film editing"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            35,
+            18
+        ],
+        "id": 1501064,
+        "original_language": "en",
+        "original_title": "Smoke and Mirrors",
+        "overview": "When a novice Magician drops the ball on his first performance, a faint laugh sets into motion a journey of self discovery.",
+        "popularity": 0.0362,
+        "poster_path": "/iKSp1vLgoxLuvLhSsJMmIznhv13.jpg",
+        "release_date": "2025-06-28",
+        "title": "Smoke and Mirrors",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Hakeem Swinney",
+            "Oneida Rivers"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27,
+            10402
+        ],
+        "id": 1357777,
+        "original_language": "en",
+        "original_title": "Devil's Pie",
+        "overview": "Phase 3 films' first horror musical finished during the LA 48 Hour Film Project Event.",
+        "popularity": 0.0362,
+        "poster_path": "/26KcXoYdFDVJ97wUIPz29FodjAQ.jpg",
+        "release_date": "2025-06-28",
+        "title": "Devil's Pie",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Alexis DeDonato",
+            "Samantha Morales",
+            "Monica Hart"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            16,
+            27
+        ],
+        "id": 1354859,
+        "original_language": "en",
+        "original_title": "Bone Idol",
+        "overview": "A young man is trying to complete his gruesome art project.",
+        "popularity": 0.0143,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Bone Idol",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            27
+        ],
+        "id": 1354816,
+        "original_language": "en",
+        "original_title": "La Diablesse",
+        "overview": "Post WWII, a young sailor falls for the wrong working girl and is sacrificed in a ritual that brings forth a demon from the netherworld.",
+        "popularity": 0.0214,
+        "poster_path": null,
+        "release_date": "2025-06-29",
+        "title": "La Diablesse",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Elise Valderrama",
+            "Hunter Dubois",
+            "Grace Perez"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/g4ymQUj7NpRKqZr6VVlatiqpYJR.jpg",
+        "genre_ids": [
+            99,
+            18
+        ],
+        "id": 1505483,
+        "original_language": "pt",
+        "original_title": "Ensaio Sobre Você",
+        "overview": "",
+        "popularity": 0.0071,
+        "poster_path": "/eFrmJpRUsYQgDX9u0K5NBmdMOBF.jpg",
+        "release_date": "2025-06-29",
+        "title": "Ensaio Sobre Você",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Laura Queiroz"
+        ],
+        "keywords": [
+            "surrealism",
+            "love",
+            "experimental",
+            "saudade",
+            "amor"
+        ]
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1505481,
+        "original_language": "xx",
+        "original_title": "Mascon: A Massive Concentration Of Black Experiential Energy",
+        "overview": "Think of Mascon: A Massive Concentration Of Black Experiential Energy as an audiovisual investigation into the gestures, geometries, grammars and geographies that compose the forms and the forces of the films of Ousmane Sembene and Djibril Diop Mambety from 1963 to 2004.  As an audiovisual mosaic of still moving images and sounds adapted from the frames of the narratives of Mambety and Sembene in order to circulate in a migratory orbit that summons the borderless imagination of the cine-Sahel. As morphologies that amplify the Sembenean and Mambetyan motifs of Cinemafricana until they assail the imagination with the expansive deformation, centrifugal contraction, compacted compression and amassed concentration that Stephen Henderson calls ‘Mascon’ or ‘black experiential energy’.",
+        "popularity": 0.0071,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Mascon: A Massive Concentration Of Black Experiential Energy",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "The Otolith Group"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1504112,
+        "original_language": "es",
+        "original_title": "Qué hay detrás de esos cerros: Las huellas de Marina Vilte",
+        "overview": "",
+        "popularity": 0.0261,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "Qué hay detrás de esos cerros: Las huellas de Marina Vilte",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1489301,
+        "original_language": "en",
+        "original_title": "Vote For Wyrm",
+        "overview": "A political attack ad for a small town mayoral race descends into horror.",
+        "popularity": 0.0261,
+        "poster_path": "/ysNlzhKmTYLufCRqI5WOlWJORjQ.jpg",
+        "release_date": "2025-06-28",
+        "title": "Vote For Wyrm",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1505677,
+        "original_language": "ja",
+        "original_title": "アジアのユニークな国",
+        "overview": "",
+        "popularity": 0.0,
+        "poster_path": "/1CBWQOOh6bWhBVGm2dganiPuJPb.jpg",
+        "release_date": "2025-06-28",
+        "title": "アジアのユニークな国",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1505625,
+        "original_language": "en",
+        "original_title": "A Terrible Plan",
+        "overview": "An aspiring thief tries his hand at cat burglary…with mixed results.",
+        "popularity": 0.0,
+        "poster_path": null,
+        "release_date": "2025-06-28",
+        "title": "A Terrible Plan",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/7FUV26qX1v6ceZWLMxTmSiSReKw.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 1505623,
+        "original_language": "ne",
+        "original_title": "Page Five",
+        "overview": "How do you write the perfect script?  You flush four first",
+        "popularity": 0.0,
+        "poster_path": "/8mLJE8V3kgLGShmJHgcglDNSR8G.jpg",
+        "release_date": "2025-06-28",
+        "title": "Page Five",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/wFuWKdWDFCh7lOqHrKo6rAJGEeS.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1505554,
+        "original_language": "en",
+        "original_title": "memory consolidation 01",
+        "overview": "memory consolidation 01",
+        "popularity": 0.0,
+        "poster_path": "/943fivLBpxHyPuHdCN0NJYBkMBy.jpg",
+        "release_date": "2025-06-28",
+        "title": "memory consolidation 01",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0,
+        "cast": [
+            "Kaya"
+        ],
+        "keywords": []
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/owo272TWhMYPweic2pdHavYQ6fi.jpg",
+        "genre_ids": [
+            28,
+            14,
+            18,
+            10402
+        ],
+        "id": 1505538,
+        "original_language": "ko",
+        "original_title": "투모로우바이투게더 - The Star Chapter: TOGETHER",
+        "overview": "The Star Chapter: TOGETHER is a symbolic visual journey that encapsulates TXT’s past eras while setting the stage for their new album, The Star Chapter: TOGETHER. Without dialogue or a linear plot, it uses mood, motion, and imagery to convey the emotional arc of the group’s story. With cosmic visuals and star-themed elements, it builds anticipation for a narrative-focused comeback. Mark your calendars for July 21st, you’ll want to be part of this celestial journey!",
+        "popularity": 0.0,
+        "poster_path": "/9Z5vy4kYDpzeP0pAJKtHkW7hi2a.jpg",
+        "release_date": "2025-06-28",
+        "title": "Tomorrow x Together - The Star Chapter: TOGETHER",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1,
+        "cast": [
+            "Yeonjun",
+            "Beomgyu",
+            "Soobin"
+        ],
+        "keywords": [
+            "nostalgic",
+            "k-pop",
+            "music",
+            "fantasy",
+            "drama"
+        ]
+    }
+]

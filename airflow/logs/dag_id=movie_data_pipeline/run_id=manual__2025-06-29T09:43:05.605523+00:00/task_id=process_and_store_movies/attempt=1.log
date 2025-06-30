@@ -1,0 +1,24 @@
+[2025-06-29T09:45:22.466+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-29T09:45:22.492+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: movie_data_pipeline.process_and_store_movies manual__2025-06-29T09:43:05.605523+00:00 [queued]>
+[2025-06-29T09:45:22.499+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: movie_data_pipeline.process_and_store_movies manual__2025-06-29T09:43:05.605523+00:00 [queued]>
+[2025-06-29T09:45:22.499+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-06-29T09:45:22.509+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): process_and_store_movies> on 2025-06-29 09:43:05.605523+00:00
+[2025-06-29T09:45:22.512+0000] {standard_task_runner.py:63} INFO - Started process 819 to run task
+[2025-06-29T09:45:22.516+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'movie_data_pipeline', 'process_and_store_movies', 'manual__2025-06-29T09:43:05.605523+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/movie_data_pipeline_dag.py', '--cfg-path', '/tmp/tmpje6cv52e']
+[2025-06-29T09:45:22.518+0000] {standard_task_runner.py:91} INFO - Job 4: Subtask process_and_store_movies
+[2025-06-29T09:45:22.556+0000] {task_command.py:426} INFO - Running <TaskInstance: movie_data_pipeline.process_and_store_movies manual__2025-06-29T09:43:05.605523+00:00 [running]> on host f170a500237d
+[2025-06-29T09:45:22.620+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops-team' AIRFLOW_CTX_DAG_ID='movie_data_pipeline' AIRFLOW_CTX_TASK_ID='process_and_store_movies' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T09:43:05.605523+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-29T09:43:05.605523+00:00'
+[2025-06-29T09:45:22.621+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-29T09:45:22.630+0000] {airflow_process_movies.py:21} INFO - Kết nối database thành công.
+[2025-06-29T09:45:24.026+0000] {airflow_process_movies.py:64} INFO - Bảng 'movies' đã tồn tại.
+[2025-06-29T09:45:24.049+0000] {airflow_process_movies.py:78} INFO - Đã đọc thành công 100 records từ data/raw/recent_movies.json
+[2025-06-29T09:45:24.615+0000] {airflow_process_movies.py:118} INFO - Tìm thấy 100 phim mới cần chèn vào database.
+[2025-06-29T09:45:24.977+0000] {airflow_process_movies.py:122} INFO - Đã chèn thành công 100 phim mới vào database.
+[2025-06-29T09:45:25.260+0000] {airflow_process_movies.py:139} INFO - Đã xóa file tạm: data/raw/recent_movies.json
+[2025-06-29T09:45:25.261+0000] {airflow_process_movies.py:177} INFO - Task 2 hoàn thành: Đã thêm 100 phim mới. Tổng số phim trong database: 5631
+[2025-06-29T09:45:25.261+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-29T09:45:25.262+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-29T09:45:25.270+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=movie_data_pipeline, task_id=process_and_store_movies, run_id=manual__2025-06-29T09:43:05.605523+00:00, execution_date=20250629T094305, start_date=20250629T094522, end_date=20250629T094525
+[2025-06-29T09:45:25.300+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-29T09:45:25.313+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-29T09:45:25.314+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

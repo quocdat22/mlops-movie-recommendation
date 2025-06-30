@@ -1,0 +1,27 @@
+# FastAPI and web framework dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Machine Learning dependencies
+scikit-learn==1.3.0
+pandas==2.1.0
+numpy==1.24.0
+
+# Database dependencies
+psycopg2-binary==2.9.7
+sqlalchemy==2.0.21
+
+# Utility dependencies
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Development dependencies
+pytest==7.4.0
+pytest-asyncio==0.21.0
+httpx==0.25.0
+
+# Monitoring and logging
+prometheus-client==0.17.1
+prometheus-fastapi-instrumentator==6.1.0

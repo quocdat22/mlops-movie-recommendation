@@ -1,0 +1,62 @@
+
+# Content-Based Movie Recommendation Model Training Report
+
+## Training Summary
+- Training Date: 2025-06-30 07:40:40
+- Total Movies Processed: 5,620
+- Data Source: /home/hoang/Projects/web/movie/mlops-movie-recommendation/data/processed/processed_movies.parquet
+- Output Directory: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based
+
+## Model Architecture
+- Algorithm: Content-Based Filtering with TF-IDF and Cosine Similarity
+- Vectorization: TF-IDF with optimized parameters
+- Feature Source: Engineered tags (overview + genres + keywords + cast)
+- Similarity Metric: Cosine Similarity
+
+## TF-IDF Configuration
+- Max Features: 10,000
+- N-gram Range: (1, 2)
+- Min Document Frequency: 2
+- Max Document Frequency: 0.8
+- Vocabulary Size: 10,000
+
+## Model Metrics
+- TF-IDF Matrix Shape: (5620, 10000)
+- Matrix Sparsity: 99.72%
+- Similarity Matrix Shape: (5620, 5620)
+- Memory Usage: ~120.5 MB
+
+## Validation Results
+- Movies Tested: 10
+- Average Recommendations per Movie: 5.0
+- Average Similarity Score: 0.2083
+- Diversity Rate: 100.00%
+
+## Sample Recommendations
+- 'The Shawshank Redemption': 5 recommendations, avg similarity 0.157
+- 'The Godfather': 5 recommendations, avg similarity 0.180
+- 'The Godfather Part II': 5 recommendations, avg similarity 0.236
+
+## Model Artifacts
+- Vectorizer: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/tfidf_vectorizer.pkl (0.4 MB)
+- Tfidf_Matrix: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/tfidf_matrix.pkl (1.8 MB)
+- Similarity_Matrix: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/similarity_matrix.npy (120.5 MB)
+- Mappings: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/movie_mappings.pkl (0.1 MB)
+- Metadata: /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/movie_metadata.pkl (0.2 MB)
+
+## Training Configuration
+- Feature Engineering Strategy: Overview-heavy (3:1:2 ratio)
+- Text Processing: NLTK lemmatization, stopword removal
+- Data Quality: 99.8% tag coverage before training
+
+## Next Steps
+1. Deploy model artifacts to serving infrastructure
+2. Implement recommendation API endpoints
+3. Set up model monitoring and evaluation
+4. Configure automated retraining pipeline
+
+## Notes
+- Model is ready for production deployment
+- Similarity matrix enables fast real-time recommendations
+- Consider distributed serving for high-traffic scenarios
+- Monitor recommendation quality and user feedback

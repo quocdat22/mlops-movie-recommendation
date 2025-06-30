@@ -1,0 +1,8 @@
+2025-06-30 05:41:02,887 - INFO - Starting monitoring cycle
+2025-06-30 05:41:07,272 - INFO - === MONITORING SUMMARY ===
+2025-06-30 05:41:07,272 - INFO - API Health: healthy (3.2ms)
+2025-06-30 05:41:07,272 - INFO - Recommendations: 100.00% success, 9.0ms avg
+2025-06-30 05:41:07,272 - INFO - Search: 100.00% success, 867.0ms avg
+2025-06-30 05:41:07,272 - INFO - No alerts detected
+2025-06-30 05:41:07,272 - INFO - ==========================
+2025-06-30 05:41:07,273 - INFO - Monitoring report saved to monitoring/monitoring_report.md

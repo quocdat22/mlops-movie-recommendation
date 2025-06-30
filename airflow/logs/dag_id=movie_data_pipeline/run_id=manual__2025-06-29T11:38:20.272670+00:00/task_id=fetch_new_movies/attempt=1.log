@@ -1,0 +1,126 @@
+[2025-06-29T11:38:21.389+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-06-29T11:38:21.412+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: movie_data_pipeline.fetch_new_movies manual__2025-06-29T11:38:20.272670+00:00 [queued]>
+[2025-06-29T11:38:21.418+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: movie_data_pipeline.fetch_new_movies manual__2025-06-29T11:38:20.272670+00:00 [queued]>
+[2025-06-29T11:38:21.419+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2025-06-29T11:38:21.429+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_new_movies> on 2025-06-29 11:38:20.272670+00:00
+[2025-06-29T11:38:21.434+0000] {standard_task_runner.py:63} INFO - Started process 188 to run task
+[2025-06-29T11:38:21.436+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'movie_data_pipeline', 'fetch_new_movies', 'manual__2025-06-29T11:38:20.272670+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/movie_data_pipeline_dag.py', '--cfg-path', '/tmp/tmpggab9v_8']
+[2025-06-29T11:38:21.437+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask fetch_new_movies
+[2025-06-29T11:38:21.479+0000] {task_command.py:426} INFO - Running <TaskInstance: movie_data_pipeline.fetch_new_movies manual__2025-06-29T11:38:20.272670+00:00 [running]> on host f170a500237d
+[2025-06-29T11:38:21.550+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mlops-team' AIRFLOW_CTX_DAG_ID='movie_data_pipeline' AIRFLOW_CTX_TASK_ID='fetch_new_movies' AIRFLOW_CTX_EXECUTION_DATE='2025-06-29T11:38:20.272670+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-29T11:38:20.272670+00:00'
+[2025-06-29T11:38:21.551+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-06-29T11:38:21.559+0000] {airflow_fetch_movies.py:45} INFO - Đang tìm phim mới từ 2025-06-28 đến 2025-06-29...
+[2025-06-29T11:38:23.687+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Final Destination Bloodlines
+[2025-06-29T11:38:25.041+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Lilo & Stitch
+[2025-06-29T11:38:26.381+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: KPop Demon Hunters
+[2025-06-29T11:38:27.716+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: How to Train Your Dragon
+[2025-06-29T11:38:29.182+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: 28 Years Later
+[2025-06-29T11:38:30.539+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: F1 The Movie
+[2025-06-29T11:38:31.879+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Diablo
+[2025-06-29T11:38:33.290+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: STRAW
+[2025-06-29T11:38:34.598+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Predator: Killer of Killers
+[2025-06-29T11:38:36.045+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: 28 Days Later
+[2025-06-29T11:38:37.308+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Sinners
+[2025-06-29T11:38:38.574+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Mission: Impossible - The Final Reckoning
+[2025-06-29T11:38:39.905+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Jurassic World Rebirth
+[2025-06-29T11:38:41.222+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Deep Cover
+[2025-06-29T11:38:42.477+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: M3GAN 2.0
+[2025-06-29T11:38:44.655+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Ballerina
+[2025-06-29T11:38:45.942+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: K.O.
+[2025-06-29T11:38:47.516+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Phoenician Scheme
+[2025-06-29T11:38:49.211+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Elio
+[2025-06-29T11:38:50.481+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Warfare
+[2025-06-29T11:38:50.482+0000] {airflow_fetch_movies.py:85} INFO - Đã lấy thành công 20 phim từ trang 1.
+[2025-06-29T11:38:52.480+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Shadow Force
+[2025-06-29T11:38:53.830+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Captain America: Brave New World
+[2025-06-29T11:38:55.236+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Ugly Stepsister
+[2025-06-29T11:38:56.493+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Karate Kid: Legends
+[2025-06-29T11:38:57.787+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Last Rodeo
+[2025-06-29T11:38:59.035+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Open
+[2025-06-29T11:39:00.368+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Sorority
+[2025-06-29T11:39:01.623+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Future Awaits
+[2025-06-29T11:39:02.875+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Ne Zha 2
+[2025-06-29T11:39:04.232+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Kung Fu Panda 4
+[2025-06-29T11:39:05.651+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Despicable Me 4
+[2025-06-29T11:39:06.936+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Bambi: A Life in the Woods
+[2025-06-29T11:39:08.315+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Echo Valley
+[2025-06-29T11:39:09.662+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Legend of Ochi
+[2025-06-29T11:39:11.039+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Semi-Soeter
+[2025-06-29T11:39:12.366+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Novocaine
+[2025-06-29T11:39:13.614+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Tin Soldier
+[2025-06-29T11:39:15.806+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Containment
+[2025-06-29T11:39:17.124+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Death of a Unicorn
+[2025-06-29T11:39:18.369+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Materialists
+[2025-06-29T11:39:18.370+0000] {airflow_fetch_movies.py:85} INFO - Đã lấy thành công 20 phim từ trang 2.
+[2025-06-29T11:39:20.437+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Rosario
+[2025-06-29T11:39:21.939+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Wicked
+[2025-06-29T11:39:23.229+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Hard Truths
+[2025-06-29T11:39:24.699+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Woman in the Yard
+[2025-06-29T11:39:26.079+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Fear Street: Prom Queen
+[2025-06-29T11:39:27.408+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Locked
+[2025-06-29T11:39:28.818+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Panda Bear in Africa
+[2025-06-29T11:39:30.049+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Prosecutor
+[2025-06-29T11:39:31.375+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Our Times
+[2025-06-29T11:39:32.711+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Mission: Impossible
+[2025-06-29T11:39:33.960+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Taandob
+[2025-06-29T11:39:35.230+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Ritual
+[2025-06-29T11:39:36.463+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Frozen: The Hit Broadway Musical
+[2025-06-29T11:39:37.690+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Grenfell: Uncovered
+[2025-06-29T11:39:38.903+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Memoir of a Snail
+[2025-06-29T11:39:40.195+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Titan: The OceanGate Submersible Disaster
+[2025-06-29T11:39:41.601+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Sitaare Zameen Par
+[2025-06-29T11:39:42.924+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: A Widow's Game
+[2025-06-29T11:39:44.179+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Kalakal
+[2025-06-29T11:39:46.369+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Fight or Flight
+[2025-06-29T11:39:46.369+0000] {airflow_fetch_movies.py:85} INFO - Đã lấy thành công 20 phim từ trang 3.
+[2025-06-29T11:39:48.358+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Alarum
+[2025-06-29T11:39:49.593+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: On Swift Horses
+[2025-06-29T11:39:50.871+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Lost in Starlight
+[2025-06-29T11:39:52.189+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Shrek 2
+[2025-06-29T11:39:53.491+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Kraken
+[2025-06-29T11:39:54.719+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: What We Wanted to Be
+[2025-06-29T11:39:56.027+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Off the Grid
+[2025-06-29T11:39:57.429+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: She's Got No Name
+[2025-06-29T11:39:58.775+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Trainwreck: Poop Cruise
+[2025-06-29T11:40:00.008+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Graduation Trip: Mallorca
+[2025-06-29T11:40:01.368+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Yadang: The Snitch
+[2025-06-29T11:40:02.587+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Heads of State
+[2025-06-29T11:40:03.864+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Werewolves
+[2025-06-29T11:40:05.238+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Presence
+[2025-06-29T11:40:06.513+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Sharp Corner
+[2025-06-29T11:40:07.839+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Holy Night: Demon Hunters
+[2025-06-29T11:40:09.077+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: An Endless Wedding
+[2025-06-29T11:40:10.380+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Goonies
+[2025-06-29T11:40:11.787+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Hurry Up Tomorrow
+[2025-06-29T11:40:13.008+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Kuberaa
+[2025-06-29T11:40:13.009+0000] {airflow_fetch_movies.py:85} INFO - Đã lấy thành công 20 phim từ trang 4.
+[2025-06-29T11:40:15.028+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Léon: The Professional
+[2025-06-29T11:40:17.178+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Dangerous Animals
+[2025-06-29T11:40:18.430+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Marked Men: Rule + Shaw
+[2025-06-29T11:40:19.774+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Mission: Impossible II
+[2025-06-29T11:40:21.070+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Bad Guys
+[2025-06-29T11:40:22.570+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: A Gilded Game
+[2025-06-29T11:40:23.875+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Pride & Prejudice
+[2025-06-29T11:40:25.247+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Queer
+[2025-06-29T11:40:26.700+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Brokeback Mountain
+[2025-06-29T11:40:28.021+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Escape
+[2025-06-29T11:40:29.311+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Balconettes
+[2025-06-29T11:40:30.680+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Ash
+[2025-06-29T11:40:31.985+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: How to Lose a Guy in 10 Days
+[2025-06-29T11:40:33.265+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: I'm Still Here
+[2025-06-29T11:40:34.571+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Heart Eyes
+[2025-06-29T11:40:35.847+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Old Guard 2
+[2025-06-29T11:40:37.152+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Psycho
+[2025-06-29T11:40:38.388+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Trainwreck: The Astroworld Tragedy
+[2025-06-29T11:40:39.772+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: Friendship
+[2025-06-29T11:40:41.092+0000] {airflow_fetch_movies.py:82} INFO - Đã xử lý chi tiết cho phim mới: The Life of Chuck
+[2025-06-29T11:40:41.093+0000] {airflow_fetch_movies.py:85} INFO - Đã lấy thành công 20 phim từ trang 5.
+[2025-06-29T11:40:41.093+0000] {airflow_fetch_movies.py:91} INFO - Tổng cộng đã lấy được 100 phim mới.
+[2025-06-29T11:40:41.098+0000] {airflow_fetch_movies.py:103} INFO - Đã lưu 100 phim mới vào: data/raw/recent_movies.json
+[2025-06-29T11:40:41.098+0000] {airflow_fetch_movies.py:126} INFO - Task 1 hoàn thành: Đã lấy và lưu 100 phim mới.
+[2025-06-29T11:40:41.098+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-06-29T11:40:41.098+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-06-29T11:40:41.105+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=movie_data_pipeline, task_id=fetch_new_movies, run_id=manual__2025-06-29T11:38:20.272670+00:00, execution_date=20250629T113820, start_date=20250629T113821, end_date=20250629T114041
+[2025-06-29T11:40:41.125+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-06-29T11:40:41.143+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-29T11:40:41.145+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

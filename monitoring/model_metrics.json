@@ -1,0 +1,96 @@
+[
+  {
+    "timestamp": "2025-06-30T05:41:02.887725",
+    "health_check": {
+      "status": "healthy",
+      "response_time_ms": 3.232717514038086,
+      "api_data": {
+        "status": "healthy",
+        "model_loaded": true,
+        "uptime_seconds": 227.67235,
+        "total_requests": 1
+      }
+    },
+    "recommendations_test": {
+      "success_rate": 1.0,
+      "avg_response_time_ms": 9.046363830566406,
+      "avg_num_recommendations": 5.0,
+      "avg_similarity": 0.16694569945335386,
+      "individual_results": [
+        {
+          "movie_id": 278,
+          "status": "success",
+          "response_time_ms": 12.222766876220703,
+          "num_recommendations": 5,
+          "avg_similarity": 0.15716128349304198
+        },
+        {
+          "movie_id": 238,
+          "status": "success",
+          "response_time_ms": 14.63627815246582,
+          "num_recommendations": 5,
+          "avg_similarity": 0.1797822430729866
+        },
+        {
+          "movie_id": 240,
+          "status": "success",
+          "response_time_ms": 5.931377410888672,
+          "num_recommendations": 5,
+          "avg_similarity": 0.23644434809684753
+        },
+        {
+          "movie_id": 13,
+          "status": "success",
+          "response_time_ms": 5.330562591552734,
+          "num_recommendations": 5,
+          "avg_similarity": 0.13608562499284743
+        },
+        {
+          "movie_id": 19404,
+          "status": "success",
+          "response_time_ms": 7.110834121704102,
+          "num_recommendations": 5,
+          "avg_similarity": 0.12525499761104583
+        }
+      ]
+    },
+    "search_test": {
+      "search_success_rate": 1.0,
+      "avg_search_time_ms": 866.9770240783691,
+      "avg_num_results": 2.0,
+      "individual_results": [
+        {
+          "query": "action",
+          "status": "success",
+          "response_time_ms": 861.0382080078125,
+          "num_results": 2
+        },
+        {
+          "query": "comedy",
+          "status": "success",
+          "response_time_ms": 890.8019065856934,
+          "num_results": 2
+        },
+        {
+          "query": "drama",
+          "status": "success",
+          "response_time_ms": 876.6927719116211,
+          "num_results": 3
+        },
+        {
+          "query": "godfather",
+          "status": "success",
+          "response_time_ms": 852.0207405090332,
+          "num_results": 1
+        },
+        {
+          "query": "matrix",
+          "status": "success",
+          "response_time_ms": 854.3314933776855,
+          "num_results": 2
+        }
+      ]
+    },
+    "alerts": []
+  }
+]

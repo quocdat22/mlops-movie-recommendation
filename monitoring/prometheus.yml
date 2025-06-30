@@ -1,0 +1,36 @@
+# Prometheus configuration for Movie Recommendation API
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  # Add alerting rules here if needed
+  # - "alert_rules.yml"
+
+scrape_configs:
+  # Movie Recommendation API
+  - job_name: 'movie-recommendation-api'
+    static_configs:
+      - targets: ['localhost:8000']  # API service
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+    scrape_timeout: 5s
+    
+    # Optional: Add labels to identify different environments
+    relabel_configs:
+      - target_label: 'service'
+        replacement: 'movie-recommendation'
+      - target_label: 'environment'
+        replacement: 'development'  # Change to 'production' when deploying
+    
+  # Optional: Self-monitoring of Prometheus
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+# Optional: Alertmanager configuration
+# alerting:
+#   alertmanagers:
+#     - static_configs:
+#         - targets:
+#           - alertmanager:9093
