@@ -61,3 +61,4 @@ venv.bak/
 
 # secrets
 *.env
+models/content_based/
