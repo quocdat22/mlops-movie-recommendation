@@ -23,10 +23,10 @@ import pickle
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
-from google.cloud import storage
 
 import numpy as np
 import pandas as pd
+from google.cloud import storage
 
 # Add src to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
@@ -68,14 +68,14 @@ class ContentBasedRecommender:
         # Load model on initialization
         self.load_model()
 
-    
-
     def load_model(self) -> bool:
         """Load all model artifacts"""
         try:
             self.download_from_gcs()
         except Exception as e:
-            logger.error(f"Cannot proceed with model loading due to GCS download failure: {e}")
+            logger.error(
+                f"Cannot proceed with model loading due to GCS download failure: {e}"
+            )
             self.is_loaded = False
             return False
 
