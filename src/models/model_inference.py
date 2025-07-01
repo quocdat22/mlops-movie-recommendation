@@ -68,6 +68,60 @@ class ContentBasedRecommender:
         # Load model on initialization
         self.load_model()
 
+    def download_from_gcs(self):
+        """Download model artifacts from Google Cloud Storage"""
+        if not self.gcs_bucket_name or not self.gcs_model_path:
+            logger.warning("GCS bucket name or model path not configured, skipping GCS download")
+            return
+
+        try:
+            # Initialize GCS client
+            client = storage.Client()
+            bucket = client.bucket(self.gcs_bucket_name)
+            
+            # Create model directory if it doesn't exist
+            self.model_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Define the model files we need to download
+            model_files = [
+                'tfidf_vectorizer.pkl',
+                'tfidf_matrix.pkl', 
+                'similarity_matrix.npy',
+                'movie_mappings.pkl',
+                'movie_metadata.pkl'
+            ]
+            
+            logger.info(f"Downloading model files from GCS bucket: {self.gcs_bucket_name}")
+            
+            for file_name in model_files:
+                # GCS path
+                gcs_path = f"{self.gcs_model_path}/{file_name}"
+                # Local path
+                local_path = self.model_dir / file_name
+                
+                # Skip if file already exists locally
+                if local_path.exists():
+                    logger.info(f"File {file_name} already exists locally, skipping download")
+                    continue
+                
+                try:
+                    blob = bucket.blob(gcs_path)
+                    if blob.exists():
+                        logger.info(f"Downloading {gcs_path} to {local_path}")
+                        blob.download_to_filename(str(local_path))
+                        logger.info(f"Successfully downloaded {file_name}")
+                    else:
+                        logger.warning(f"File not found in GCS: {gcs_path}")
+                except Exception as e:
+                    logger.error(f"Failed to download {file_name}: {e}")
+                    raise e
+                    
+            logger.info("Model download from GCS completed successfully")
+            
+        except Exception as e:
+            logger.error(f"Error downloading model from GCS: {e}")
+            raise e
+
     def load_model(self) -> bool:
         """Load all model artifacts"""
         try:

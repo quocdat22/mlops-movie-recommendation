@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  movie-api:
+    build:
+      context: .
+      dockerfile: src/api/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - LOG_LEVEL=INFO
+      - MODEL_DIR=/app/models/content_based
+      - GOOGLE_APPLICATION_CREDENTIALS=/gcs-credentials.json
+      - GCS_BUCKET_NAME=${GCS_BUCKET_NAME:-staging.doanandroid-e3111.appspot.com}
+      - GCS_MODEL_PATH=${GCS_MODEL_PATH:-content_based}
+    volumes:
+      - ./gcs-credentials.json:/gcs-credentials.json:ro
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s  # Give more time for model download
+    restart: unless-stopped
+    networks:
+      - movie-net
+
+networks:
+  movie-net:
+    driver: bridge
