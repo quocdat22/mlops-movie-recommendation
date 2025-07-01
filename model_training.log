@@ -124,3 +124,67 @@
 2025-06-30 07:40:40,382 - INFO - Training report saved to /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/training_report.txt
 2025-06-30 07:40:40,382 - INFO - Training completed successfully in 0:00:01.375373
 2025-06-30 07:40:40,382 - INFO - Model ready for deployment with 5,620 movies
+2025-06-30 16:26:39,958 - INFO - Starting content-based recommendation model training
+2025-06-30 16:26:39,959 - INFO - Loading processed data from /home/hoang/Projects/web/movie/mlops-movie-recommendation/data/processed/processed_movies.parquet
+2025-06-30 16:26:40,067 - INFO - Loaded 5634 movies
+2025-06-30 16:26:40,074 - INFO - Data quality: 5620/5634 movies have tags (99.8%)
+2025-06-30 16:26:40,075 - INFO - Filtered dataset: 5620/5634 movies for training
+2025-06-30 16:26:40,077 - INFO - Creating TF-IDF vectorizer
+2025-06-30 16:26:40,077 - INFO - Vectorizing movie features
+2025-06-30 16:26:40,865 - INFO - TF-IDF matrix shape: (5620, 10000)
+2025-06-30 16:26:40,866 - INFO - Vocabulary size: 10000
+2025-06-30 16:26:40,866 - INFO - Matrix sparsity: 99.72%
+2025-06-30 16:26:40,866 - INFO - Computing cosine similarity matrix
+2025-06-30 16:26:40,961 - INFO - Processed 1000/5620 movies
+2025-06-30 16:26:41,273 - INFO - Processed 5620/5620 movies
+2025-06-30 16:26:41,274 - INFO - Similarity matrix shape: (5620, 5620)
+2025-06-30 16:26:41,521 - INFO - Similarity stats - Mean: 0.0085, Std: 0.0165, Max: 0.9871
+2025-06-30 16:26:41,523 - INFO - Validating model quality
+2025-06-30 16:26:41,528 - INFO - Sample recommendations for 'The Shawshank Redemption': ['Brubaker', 'Murder in the First', 'Le Trou']
+2025-06-30 16:26:41,533 - INFO - Sample recommendations for 'The Godfather': ['The Godfather Part II', 'The Godfather Part III', 'Sansho the Bailiff']
+2025-06-30 16:26:41,536 - INFO - Sample recommendations for 'The Godfather Part II': ['The Godfather Part III', 'The Godfather', 'Suburra']
+2025-06-30 16:26:41,540 - INFO - Sample recommendations for 'Schindler's List': ['The Counterfeiters', 'Lee', 'Defiance']
+2025-06-30 16:26:41,543 - INFO - Sample recommendations for '12 Angry Men': ['12 Angry Men', '12', 'The Lincoln Lawyer']
+2025-06-30 16:26:41,547 - INFO - Sample recommendations for 'Spirited Away': ["Mary and The Witch's Flower", 'Panda Bear in Africa', 'The Boy and the Heron']
+2025-06-30 16:26:41,551 - INFO - Sample recommendations for 'The Dark Knight': ['Batman: The Long Halloween, Part Two', 'Batman: The Long Halloween, Part One', 'The Dark Knight Rises']
+2025-06-30 16:26:41,555 - INFO - Sample recommendations for 'Dilwale Dulhania Le Jayenge': ['A Passage to India', 'A Walk in the Clouds', 'The Other Zoey']
+2025-06-30 16:26:41,558 - INFO - Sample recommendations for 'Hope': ['Silenced', 'Women Talking', 'She Said']
+2025-06-30 16:26:41,562 - INFO - Sample recommendations for 'The Green Mile': ['Chicago', "Monster's Ball", 'Catch-22']
+2025-06-30 16:26:41,562 - INFO - Saving model artifacts
+2025-06-30 16:26:41,661 - INFO - Saved 5 model artifacts
+2025-06-30 16:26:41,661 - INFO - Generating training report
+2025-06-30 16:26:41,662 - INFO - Training report saved to /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/training_report.txt
+2025-06-30 16:26:41,662 - INFO - Training completed successfully in 0:00:01.702810
+2025-06-30 16:26:41,662 - INFO - Model ready for deployment with 5,620 movies
+2025-07-01 04:33:01,287 - INFO - Starting content-based recommendation model training
+2025-07-01 04:33:01,288 - INFO - Loading processed data from /home/hoang/Projects/web/movie/mlops-movie-recommendation/data/processed/processed_movies.parquet
+2025-07-01 04:33:01,406 - INFO - Loaded 5634 movies
+2025-07-01 04:33:01,416 - INFO - Data quality: 5620/5634 movies have tags (99.8%)
+2025-07-01 04:33:01,419 - INFO - Filtered dataset: 5620/5634 movies for training
+2025-07-01 04:33:01,422 - INFO - Creating TF-IDF vectorizer
+2025-07-01 04:33:01,422 - INFO - Vectorizing movie features
+2025-07-01 04:33:02,355 - INFO - TF-IDF matrix shape: (5620, 10000)
+2025-07-01 04:33:02,355 - INFO - Vocabulary size: 10000
+2025-07-01 04:33:02,355 - INFO - Matrix sparsity: 99.72%
+2025-07-01 04:33:02,356 - INFO - Computing cosine similarity matrix
+2025-07-01 04:33:02,465 - INFO - Processed 1000/5620 movies
+2025-07-01 04:33:02,857 - INFO - Processed 5620/5620 movies
+2025-07-01 04:33:02,857 - INFO - Similarity matrix shape: (5620, 5620)
+2025-07-01 04:33:03,155 - INFO - Similarity stats - Mean: 0.0085, Std: 0.0165, Max: 0.9871
+2025-07-01 04:33:03,157 - INFO - Validating model quality
+2025-07-01 04:33:03,164 - INFO - Sample recommendations for 'The Shawshank Redemption': ['Brubaker', 'Murder in the First', 'Le Trou']
+2025-07-01 04:33:03,170 - INFO - Sample recommendations for 'The Godfather': ['The Godfather Part II', 'The Godfather Part III', 'Sansho the Bailiff']
+2025-07-01 04:33:03,176 - INFO - Sample recommendations for 'The Godfather Part II': ['The Godfather Part III', 'The Godfather', 'Suburra']
+2025-07-01 04:33:03,179 - INFO - Sample recommendations for 'Schindler's List': ['The Counterfeiters', 'Lee', 'Defiance']
+2025-07-01 04:33:03,185 - INFO - Sample recommendations for '12 Angry Men': ['12 Angry Men', '12', 'The Lincoln Lawyer']
+2025-07-01 04:33:03,190 - INFO - Sample recommendations for 'Spirited Away': ["Mary and The Witch's Flower", 'Panda Bear in Africa', 'The Boy and the Heron']
+2025-07-01 04:33:03,194 - INFO - Sample recommendations for 'The Dark Knight': ['Batman: The Long Halloween, Part Two', 'Batman: The Long Halloween, Part One', 'The Dark Knight Rises']
+2025-07-01 04:33:03,198 - INFO - Sample recommendations for 'Dilwale Dulhania Le Jayenge': ['A Passage to India', 'A Walk in the Clouds', 'The Other Zoey']
+2025-07-01 04:33:03,201 - INFO - Sample recommendations for 'Hope': ['Silenced', 'Women Talking', 'She Said']
+2025-07-01 04:33:03,206 - INFO - Sample recommendations for 'The Green Mile': ['Chicago', "Monster's Ball", 'Catch-22']
+2025-07-01 04:33:03,207 - INFO - Saving model artifacts
+2025-07-01 04:33:03,289 - INFO - Saved 5 model artifacts
+2025-07-01 04:33:03,290 - INFO - Generating training report
+2025-07-01 04:33:03,290 - INFO - Training report saved to /home/hoang/Projects/web/movie/mlops-movie-recommendation/models/content_based/training_report.txt
+2025-07-01 04:33:03,291 - INFO - Training completed successfully in 0:00:02.002629
+2025-07-01 04:33:03,291 - INFO - Model ready for deployment with 5,620 movies

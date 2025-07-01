@@ -23,6 +23,7 @@ import pickle
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
+from google.cloud import storage
 
 import numpy as np
 import pandas as pd
@@ -61,11 +62,23 @@ class ContentBasedRecommender:
         self.cache_size_limit = 1000  # Maximum cache size
         self.is_loaded = False
 
+        self.gcs_bucket_name = os.getenv("GCS_BUCKET_NAME")
+        self.gcs_model_path = os.getenv("GCS_MODEL_PATH", "content_based")
+
         # Load model on initialization
         self.load_model()
 
+    
+
     def load_model(self) -> bool:
         """Load all model artifacts"""
+        try:
+            self.download_from_gcs()
+        except Exception as e:
+            logger.error(f"Cannot proceed with model loading due to GCS download failure: {e}")
+            self.is_loaded = False
+            return False
+
         logger.info(f"Loading model from {self.model_dir}")
 
         try:

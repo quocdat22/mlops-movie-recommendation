@@ -20,3 +20,4 @@ streamlit
 psutil
 scipy
 prometheus-fastapi-instrumentator
+google-cloud-storage
