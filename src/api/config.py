@@ -32,7 +32,7 @@ class APISettings:
     ]
 
     # Model Settings
-    MODEL_DIR: str = os.getenv("MODEL_DIR", "./models/content_based")
+    MODEL_DIR: str = os.getenv("MODEL_DIR", "/app/models/content_based")
     MODEL_CACHE_SIZE: int = int(os.getenv("MODEL_CACHE_SIZE", "1000"))
 
     # Request Limits
