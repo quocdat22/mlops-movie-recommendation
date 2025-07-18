@@ -2,9 +2,10 @@ import os
 import sys
 from datetime import datetime, timedelta
 
-from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.python import PythonOperator
+
+from airflow import DAG
 
 # Thêm đường dẫn src vào sys.path để có thể import các module
 current_dir = os.path.dirname(os.path.abspath(__file__))

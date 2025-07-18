@@ -27,8 +27,9 @@ from typing import Dict, List, Optional
 import uvicorn
 
 # FastAPI imports
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException
 from fastapi import Path as PathParam
+from fastapi import Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from prometheus_fastapi_instrumentator import Instrumentator

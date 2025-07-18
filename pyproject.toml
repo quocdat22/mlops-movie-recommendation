@@ -13,10 +13,10 @@ skip_gitignore = true
 line-length = 88
 exclude = ["venv", ".venv", "build", "dist"]
 
-# Temporary: only enforce import sorting to unblock CI. Other rules disabled.
+# Temporary: disable import sorting since isort is used. Other rules disabled.
 [tool.ruff.lint]
-select = ["I"]
-ignore = []
+select = []
+ignore = ["I"]
 
 [build-system]
 requires = ["setuptools>=61.0"]

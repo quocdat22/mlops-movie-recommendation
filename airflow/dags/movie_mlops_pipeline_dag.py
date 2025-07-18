@@ -1,9 +1,10 @@
 import sys
 from datetime import datetime, timedelta
 
-from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
+
+from airflow import DAG
 
 # Thêm đường dẫn src vào sys.path để có thể import các module
 sys.path.append("/opt/airflow/src")
